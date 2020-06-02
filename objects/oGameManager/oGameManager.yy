@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sPlayer_Right_Idle",
-    "path": "sprites/sPlayer_Right_Idle/sPlayer_Right_Idle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oEntity",
-    "path": "objects/oEntity/oEntity.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Managers",
+    "path": "folders/Managers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oGameManager",
   "tags": [],
   "resourceType": "GMObject",
 }

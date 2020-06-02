@@ -1,9 +1,9 @@
 
 // Resolution data
 global.Resolution = {
-	width : 640,
-	height : 360,
-	scale : 2
+	width : 320,
+	height : 180,
+	scale : 4
 }
 
 // Set resolution
