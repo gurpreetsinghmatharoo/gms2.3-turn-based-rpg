@@ -30,6 +30,8 @@
     {"id":{"name":"oNPCTemplate","path":"objects/oNPCTemplate/oNPCTemplate.yy",},"order":1,},
     {"id":{"name":"sPlayer_Right_Idle","path":"sprites/sPlayer_Right_Idle/sPlayer_Right_Idle.yy",},"order":2,},
     {"id":{"name":"sTemplate_Down_Walk","path":"sprites/sTemplate_Down_Walk/sTemplate_Down_Walk.yy",},"order":0,},
+    {"id":{"name":"sEntityMask","path":"sprites/sEntityMask/sEntityMask.yy",},"order":0,},
+    {"id":{"name":"log","path":"scripts/log/log.yy",},"order":4,},
     {"id":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"order":0,},
     {"id":{"name":"scrResolution","path":"scripts/scrResolution/scrResolution.yy",},"order":0,},
     {"id":{"name":"sPlayer_Up_Walk","path":"sprites/sPlayer_Up_Walk/sPlayer_Up_Walk.yy",},"order":3,},

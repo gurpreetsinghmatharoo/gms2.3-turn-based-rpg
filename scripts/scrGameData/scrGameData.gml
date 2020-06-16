@@ -1,3 +1,3 @@
 
 // Tiles
-global.cellSize = 16;
+#macro CELLSIZE 16

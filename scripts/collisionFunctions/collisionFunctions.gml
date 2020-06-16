@@ -7,7 +7,7 @@ function collision_at_cell (cell_x, cell_y) {
 	if (_tile) return true;
 	
 	// Get NPC collision
-	var _cs = global.cellSize;
+	var _cs = CELLSIZE;
 	var _checkX = (cell_x + 0.5) * _cs;
 	var _checkY = (cell_y + 0.5) * _cs;
 	var _npc = instance_position(_checkX, _checkY, oEntityParent);

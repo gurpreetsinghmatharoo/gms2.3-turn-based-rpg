@@ -1,4 +1,7 @@
 /// @description 
+// Set mask
+mask_index = sEntityMask;
+
 // Input variables (set in Begin Step)
 inputX = 0;
 inputY = 0;

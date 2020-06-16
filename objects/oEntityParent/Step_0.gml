@@ -20,8 +20,8 @@ switch (state) {
 					inputY = 0;
 				
 				// Get current cell
-				var _cellX = floor(x / global.cellSize);
-				var _cellY = floor(y / global.cellSize);
+				var _cellX = floor(x / CELLSIZE);
+				var _cellY = floor(y / CELLSIZE);
 				
 				// Get new cell
 				var _newCellX = _cellX + sign(inputX);
@@ -33,13 +33,13 @@ switch (state) {
 				// Move if no collisions
 				if (!_col) {
 					// Get new position (where you wanna move)
-					var _newX = _newCellX * global.cellSize;
-					var _newY = _newCellY * global.cellSize;
+					var _newX = _newCellX * CELLSIZE;
+					var _newY = _newCellY * CELLSIZE;
 					
 					// Set target
 					// Actual position will be the center of the new cell
-					targetX = _newX + global.cellSize / 2;
-					targetY = _newY + global.cellSize / 2;
+					targetX = _newX + CELLSIZE / 2;
+					targetY = _newY + CELLSIZE / 2;
 			
 					// Enable moving
 					moving = true;
