@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oEntity",
-    "path": "objects/oEntity/oEntity.yy",
+    "name": "oNPCParent",
+    "path": "objects/oNPCParent/oNPCParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,7 +25,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNPCTemplate","path":"objects/oNPCTemplate/oNPCTemplate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"oNPCTemplate","path":"objects/oNPCTemplate/oNPCTemplate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

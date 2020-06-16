@@ -5,5 +5,15 @@ function collision_at_cell (cell_x, cell_y) {
 	var _tile = tilemap_get(global.collisionTilemap, cell_x, cell_y);
 	
 	if (_tile) return true;
-	else return false;
+	
+	// Get NPC collision
+	var _cs = global.cellSize;
+	var _checkX = (cell_x + 0.5) * _cs;
+	var _checkY = (cell_y + 0.5) * _cs;
+	var _npc = instance_position(_checkX, _checkY, oEntityParent);
+	
+	if (_npc) return true;
+	
+	// No collision
+	return false;
 }

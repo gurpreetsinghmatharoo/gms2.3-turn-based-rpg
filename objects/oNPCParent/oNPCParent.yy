@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sPlayer_Right_Idle",
-    "path": "sprites/sPlayer_Right_Idle/sPlayer_Right_Idle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "NPCs",
+    "path": "folders/Objects/NPCs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oNPCParent",
   "tags": [],
   "resourceType": "GMObject",
 }
