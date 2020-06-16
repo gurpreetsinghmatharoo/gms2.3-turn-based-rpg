@@ -12,5 +12,5 @@ moveDirection = faceDirection;
 
 // Random movement
 moveTimer = 0;
-minMoveTime = 200;
-maxMoveTime = 300;
+minMoveTime = 100;
+maxMoveTime = 200;

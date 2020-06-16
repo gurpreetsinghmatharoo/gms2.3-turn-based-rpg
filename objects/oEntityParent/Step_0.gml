@@ -44,6 +44,11 @@ switch (state) {
 					// Enable moving
 					moving = true;
 				}
+				// If there are collisions, at least face in that direction
+				else {
+					var _dir = point_direction(0, 0, inputX, inputY);
+					moveDirection = floor(_dir / 90) mod 4;
+				}
 			}
 		}
 
