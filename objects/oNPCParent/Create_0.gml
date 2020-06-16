@@ -4,5 +4,5 @@
 event_inherited();
 
 // Pathfinding
-pathID = -1;
-pathPosition = 0;
+path = path_add();
+pathNextPoint = 0;
