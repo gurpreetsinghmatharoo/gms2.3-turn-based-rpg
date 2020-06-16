@@ -1,0 +1,1 @@
+Anything in this project can be used for any purposes, EXCEPT for earning money, or for any kinds of commercial/non-free purposes.

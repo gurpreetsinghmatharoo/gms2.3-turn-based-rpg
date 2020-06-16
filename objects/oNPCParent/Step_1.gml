@@ -3,19 +3,36 @@
 // Inherit the parent event
 event_inherited();
 
-// Move to mouse
-if (mouse_check_button_pressed(mb_left)) {
-	// Room coordinates to cell coordinates
-	var _goalX = floor(mouse_x / CELLSIZE) * CELLSIZE;
-	var _goalY = floor(mouse_y / CELLSIZE) * CELLSIZE;
-	_goalX += CELLSIZE / 2;
-	_goalY += CELLSIZE / 2;
+// Moves
+if (moves) {
+	// Move to new position
+	if (moveTimer <= 0) {
+		// Select new position
+		var _distance = irandom_range(CELLSIZE, moveRadius);
+		var _direction = irandom(360);
 	
-	// Find path
-	var _found = mp_grid_path(global.AI_MPGrid, path, x, y, _goalX, _goalY, false);
+		var _x = xstart + lengthdir_x(_distance, _direction);
+		var _y = ystart + lengthdir_y(_distance, _direction);
 	
-	if (_found) {
-		pathNextPoint = 1;
+		// Center in cell
+		_x = floor(_x / CELLSIZE) * CELLSIZE;
+		_y = floor(_y / CELLSIZE) * CELLSIZE;
+		_x += CELLSIZE / 2;
+		_y += CELLSIZE / 2;
+	
+		// Find path
+		var _found = mp_grid_path(global.AI_MPGrid, path, x, y, _x, _y, false);
+	
+		if (_found) {
+			pathNextPoint = 1;
+		}
+	
+		// Re-set move timer
+		moveTimer = irandom_range(minMoveTime, maxMoveTime);
+	}
+	// Count down timer
+	else {
+		moveTimer --;
 	}
 }
 
