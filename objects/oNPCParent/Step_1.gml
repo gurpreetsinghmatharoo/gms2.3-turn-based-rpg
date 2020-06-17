@@ -14,18 +14,7 @@ if (moves) {
 		var _x = xstart + lengthdir_x(_distance, _direction);
 		var _y = ystart + lengthdir_y(_distance, _direction);
 	
-		// Center in cell
-		_x = floor(_x / CELLSIZE) * CELLSIZE;
-		_y = floor(_y / CELLSIZE) * CELLSIZE;
-		_x += CELLSIZE / 2;
-		_y += CELLSIZE / 2;
-	
-		// Find path
-		var _found = mp_grid_path(global.AI_MPGrid, path, x, y, _x, _y, false);
-	
-		if (_found) {
-			pathNextPoint = 1;
-		}
+		moveToPoint(_x, _y);
 	
 		// Re-set move timer
 		moveTimer = irandom_range(minMoveTime, maxMoveTime);
