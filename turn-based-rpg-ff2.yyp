@@ -6,6 +6,7 @@
     {"id":{"name":"sTemplate_Right_Walk","path":"sprites/sTemplate_Right_Walk/sTemplate_Right_Walk.yy",},"order":2,},
     {"id":{"name":"sTemplate_Left_Walk","path":"sprites/sTemplate_Left_Walk/sTemplate_Left_Walk.yy",},"order":1,},
     {"id":{"name":"tCollision","path":"tilesets/tCollision/tCollision.yy",},"order":1,},
+    {"id":{"name":"oTree1","path":"objects/oTree1/oTree1.yy",},"order":2,},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"order":0,},
     {"id":{"name":"oGlobalManager","path":"objects/oGlobalManager/oGlobalManager.yy",},"order":0,},
     {"id":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"order":0,},
@@ -40,6 +41,7 @@
     {"id":{"name":"scrResolution","path":"scripts/scrResolution/scrResolution.yy",},"order":0,},
     {"id":{"name":"sPlayer_Up_Walk","path":"sprites/sPlayer_Up_Walk/sPlayer_Up_Walk.yy",},"order":3,},
     {"id":{"name":"sTilesetCollision","path":"sprites/sTilesetCollision/sTilesetCollision.yy",},"order":1,},
+    {"id":{"name":"sTree1","path":"sprites/sTree1/sTree1.yy",},"order":1,},
     {"id":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},"order":1,},
   ],
   "Options": [
