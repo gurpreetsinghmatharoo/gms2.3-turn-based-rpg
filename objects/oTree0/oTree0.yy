@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTree0",
+    "path": "sprites/sTree0/sTree0.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
-  "parentObjectId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "oCollision",
+    "path": "objects/oCollision/oCollision.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -17,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"oInputManager","path":"objects/oInputManager/oInputManager.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Managers",
-    "path": "folders/Managers.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oInputManager",
+  "name": "oTree0",
   "tags": [],
   "resourceType": "GMObject",
 }

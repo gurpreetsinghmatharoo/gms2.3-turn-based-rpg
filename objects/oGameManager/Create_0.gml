@@ -7,7 +7,9 @@ var _width = floor(room_width / CELLSIZE);
 var _height = floor(room_height / CELLSIZE);
 global.AI_MPGrid = mp_grid_create(0, 0, _width, _height, CELLSIZE, CELLSIZE);
 
-// Add tile
+mp_grid_add_instances(global.AI_MPGrid, oCollision, false);
+
+// Add tiles
 for (var _x = 0; _x < _width; _x ++) {
 	for (var _y = 0; _y < _height; _y ++) {
 		var _cell = tilemap_get(global.collisionTilemap, _x, _y);

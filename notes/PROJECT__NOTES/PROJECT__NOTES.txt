@@ -3,4 +3,4 @@ Game data in scrGameData
 
 For player/NPC movement, look at oEntity (which all characters inherit from)
 
-"Managers" group has all managers, like Global Manager, Input Manager, Game Manager, Camera Manager
+"Managers" group has all managers, like Global Manager, Game Manager, Camera Manager
