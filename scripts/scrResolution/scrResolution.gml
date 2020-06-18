@@ -6,11 +6,12 @@ global.Resolution = {
 	scale : 4
 }
 
+// Get total size
+var _totalW = global.Resolution.width * global.Resolution.scale;
+var _totalH = global.Resolution.height * global.Resolution.scale;
+
 // Set resolution
-surface_resize(application_surface, global.Resolution.width, global.Resolution.height);
+surface_resize(application_surface, _totalW, _totalH);
 
 // Set window size
-window_set_size(
-	global.Resolution.width * global.Resolution.scale,
-	global.Resolution.height * global.Resolution.scale
-);
+window_set_size(_totalW, _totalH);

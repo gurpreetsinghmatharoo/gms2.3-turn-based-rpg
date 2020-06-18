@@ -1,0 +1,24 @@
+Sprites > GUI
+	> sTextboxBack
+	> sTextboxFrame
+	> sTextboxMask
+	> sTextboxNamebox
+
+Objects > GUI
+	> oTextboxBack
+	> oTextboxFrame
+	> oTextboxMask
+	> oTextboxNamebox
+
+Place in a sequence
+	Use the textbox mask to mask the background image
+	Place frame on top
+	You can select both frame and mask and use the scale gizmo to resize them together
+
+Sprites > GUI > sTextboxLayout
+
+Objects > GUI
+	> oTextArea
+	> oNameArea
+
+Place areas in sequence
