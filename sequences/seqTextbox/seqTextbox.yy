@@ -121,10 +121,7 @@
           ],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"subject","tags":[],"resourceType":"GMClipMask_Subject",},
       ],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"masked background","tags":[],"resourceType":"GMClipMaskTrack",},
   ],
-  "visibleRange": {
-    "x": 0.0,
-    "y": 0.0,
-  },
+  "visibleRange": null,
   "lockOrigin": false,
   "showBackdrop": true,
   "showBackdropImage": false,
@@ -134,8 +131,8 @@
   "backdropHeight": 180,
   "backdropXOffset": 0.0,
   "backdropYOffset": 0.0,
-  "xorigin": 0,
-  "yorigin": 0,
+  "xorigin": -160,
+  "yorigin": -90,
   "eventToFunction": {},
   "eventStubScript": null,
   "parent": {

@@ -22,3 +22,18 @@ Objects > GUI
 	> oNameArea
 
 Place areas in sequence
+
+Global function: textboxCreate
+
+oTextboxManager
+	Create
+		initialize()
+
+<Test> 
+
+oGUIParent
+	Add children
+	Draw
+	Draw GUI
+
+Set sequence origin
