@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"oTree0","path":"objects/oTree0/oTree0.yy",},"order":1,},
-    {"id":{"name":"rmINit","path":"rooms/rmINit/rmINit.yy",},"order":0,},
+    {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},"order":0,},
     {"id":{"name":"sPlayer_Up_Idle","path":"sprites/sPlayer_Up_Idle/sPlayer_Up_Idle.yy",},"order":3,},
     {"id":{"name":"sTextboxMask","path":"sprites/sTextboxMask/sTextboxMask.yy",},"order":2,},
     {"id":{"name":"sTemplate_Right_Walk","path":"sprites/sTemplate_Right_Walk/sTemplate_Right_Walk.yy",},"order":2,},
@@ -83,7 +83,7 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"rmINit","path":"rooms/rmINit/rmINit.yy",},
+    {"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},
     {"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},
   ],
   "Folders": [
