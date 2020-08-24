@@ -105,7 +105,7 @@
     {"folderPath":"folders/Objects/NPCs.yy","order":2,"resourceVersion":"1.0","name":"NPCs","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Environment.yy","order":3,"resourceVersion":"1.0","name":"Environment","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Environment.yy","order":3,"resourceVersion":"1.0","name":"Environment","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/GUI.yy","order":4,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/SequenceGUI.yy","order":4,"resourceVersion":"1.0","name":"SequenceGUI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/GUI.yy","order":4,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes-Steps.yy","order":7,"resourceVersion":"1.0","name":"Notes-Steps","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sequences.yy","order":8,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},

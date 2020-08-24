@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "SequenceGUI",
+    "path": "folders/Objects/SequenceGUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGUIParent",

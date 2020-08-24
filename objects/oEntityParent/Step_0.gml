@@ -110,7 +110,7 @@ y += moveY;
 var _dir = point_direction(0, 0, moveX, moveY);
 
 // Get direction from 0-3
-_dir = floor(_dir / 90) mod 4;
+_dir = round(_dir / 90) mod 4;
 
 // Set direction if moving
 if (moveX != 0 || moveY != 0) {
