@@ -43,7 +43,6 @@
     {"id":{"name":"tMain","path":"tilesets/tMain/tMain.yy",},"order":0,},
     {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},"order":1,},
     {"id":{"name":"oTextboxNamebox","path":"objects/oTextboxNamebox/oTextboxNamebox.yy",},"order":4,},
-    {"id":{"name":"seqTextbox2","path":"sequences/seqTextbox2/seqTextbox2.yy",},"order":1,},
     {"id":{"name":"sPlayer_Left_Idle","path":"sprites/sPlayer_Left_Idle/sPlayer_Left_Idle.yy",},"order":1,},
     {"id":{"name":"sPlayer_Down_Idle","path":"sprites/sPlayer_Down_Idle/sPlayer_Down_Idle.yy",},"order":0,},
     {"id":{"name":"oNPCTemplate","path":"objects/oNPCTemplate/oNPCTemplate.yy",},"order":1,},
