@@ -5,16 +5,12 @@ switch (state) {
 	case states.idle:
 	case states.walk:
 		// Input
-		// In this part, we check if there's input on X and Y axes.
-		// If there is, and we're not moving, we get the coordinates
-		//   of the new position (where we want to move).
-		// Then we check collisions in that block.
-		// If there are no collisions, we enable movement
-		//   and set the target to the new position.
-		//
 		if (inputX != 0 || inputY != 0) {
-			// Not moving
-			if (!moving) {
+			// Distance to target
+			var _dist = point_distance(x, y, targetX, targetY);
+			
+			// Near target
+			if (_dist <= moveSpeed) {
 				// Enable movement in only one direction
 				if (inputX != 0)
 					inputY = 0;
@@ -53,32 +49,22 @@ switch (state) {
 		}
 
 		// Moving
-		// In this part, we check if the entity is moving
-		// If it is, we handle movement on X and Y
 		if (moving) {
 			// State
 			state_set(states.walk);
 		
-			// Get difference between targetX and x
+			// X movement
 			var _xDiff = targetX - x;
 	
-			// Difference is larger than movement speed
-			// meaning that there is enough room for movement
 			if (abs(_xDiff) > moveSpeed) {
-				// Move in that direction
 				moveX = sign(_xDiff) * moveSpeed;
 			}
-			// Difference is small
-			// meaning that we're mostly there
 			else {
-				// So we just fully move there
 				x = targetX;
-			
-				// Stop movement
 				moveX = 0;
 			}
 	
-			// Repeat the same for Y
+			// Y movement
 			var _yDiff = targetY - y;
 	
 			if (abs(_yDiff) > moveSpeed) {
@@ -101,6 +87,8 @@ switch (state) {
 		}
 	break;
 }
+
+if (object_index == oPlayer) log("Movement: ", [moveX, moveY]);
 
 // Apply movement
 x += moveX;

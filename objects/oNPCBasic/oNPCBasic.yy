@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNPCTemplate","path":"objects/oNPCTemplate/oNPCTemplate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNPCBasic","path":"objects/oNPCBasic/oNPCBasic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/NPCs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oNPCTemplate",
+  "name": "oNPCBasic",
   "tags": [],
   "resourceType": "GMObject",
 }
