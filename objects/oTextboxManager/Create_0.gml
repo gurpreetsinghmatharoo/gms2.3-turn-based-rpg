@@ -12,5 +12,5 @@ initialize = function (data) {
 	messageData = data;
 	
 	// Create sequence element
-	seqElm = layer_sequence_create(seqLayer, 0, 0, seqTextbox);
+	seqElm = layer_sequence_create(seqLayer, 0, 0, seqTextboxTemporary);
 }

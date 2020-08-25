@@ -27,6 +27,7 @@
     {"id":{"name":"scrGameData","path":"scripts/scrGameData/scrGameData.yy",},"order":1,},
     {"id":{"name":"oTextboxFrame","path":"objects/oTextboxFrame/oTextboxFrame.yy",},"order":2,},
     {"id":{"name":"sCameraManager","path":"sprites/sCameraManager/sCameraManager.yy",},"order":0,},
+    {"id":{"name":"oTempSequenceToSurface","path":"objects/oTempSequenceToSurface/oTempSequenceToSurface.yy",},"order":1,},
     {"id":{"name":"entityFunctions","path":"scripts/entityFunctions/entityFunctions.yy",},"order":2,},
     {"id":{"name":"sPlayer_Down_Walk","path":"sprites/sPlayer_Down_Walk/sPlayer_Down_Walk.yy",},"order":0,},
     {"id":{"name":"sPlayer_Right_Walk","path":"sprites/sPlayer_Right_Walk/sPlayer_Right_Walk.yy",},"order":2,},
@@ -43,6 +44,7 @@
     {"id":{"name":"sTemplate_Up_Walk","path":"sprites/sTemplate_Up_Walk/sTemplate_Up_Walk.yy",},"order":3,},
     {"id":{"name":"tMain","path":"tilesets/tMain/tMain.yy",},"order":0,},
     {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},"order":1,},
+    {"id":{"name":"seqTextboxTemporary","path":"sequences/seqTextboxTemporary/seqTextboxTemporary.yy",},"order":1,},
     {"id":{"name":"oTextboxNamebox","path":"objects/oTextboxNamebox/oTextboxNamebox.yy",},"order":4,},
     {"id":{"name":"sPlayer_Left_Idle","path":"sprites/sPlayer_Left_Idle/sPlayer_Left_Idle.yy",},"order":1,},
     {"id":{"name":"sPlayer_Down_Idle","path":"sprites/sPlayer_Down_Idle/sPlayer_Down_Idle.yy",},"order":0,},
@@ -111,6 +113,7 @@
     {"folderPath":"folders/Sprites/GUI.yy","order":4,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes-Steps.yy","order":7,"resourceVersion":"1.0","name":"Notes-Steps","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sequences.yy","order":8,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Temporary.yy","order":9,"resourceVersion":"1.0","name":"Temporary","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

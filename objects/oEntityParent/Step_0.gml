@@ -73,8 +73,6 @@ switch (state) {
 x += moveX;
 y += moveY;
 
-if (object_index == oPlayer) log("Movement: ", [x - xprevious, y - yprevious]);
-
 // Get movement direction
 var _dir = point_direction(0, 0, moveX, moveY);
 
