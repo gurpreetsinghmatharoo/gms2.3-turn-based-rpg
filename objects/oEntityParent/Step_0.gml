@@ -6,18 +6,15 @@ switch (state) {
 	case states.walk:
 		// Input
 		if (inputX != 0 || inputY != 0) {
-			// Distance to target
-			var _dist = point_distance(x, y, targetX, targetY);
-			
-			// Near target
-			if (_dist <= moveSpeed) {
+			// Not moving
+			if (!moving) {
 				// Enable movement in only one direction
 				if (inputX != 0)
 					inputY = 0;
 				
 				// Get current cell
-				var _cellX = floor(x / CELLSIZE);
-				var _cellY = floor(y / CELLSIZE);
+				var _cellX = to_cell_coords(x);
+				var _cellY = to_cell_coords(y);
 				
 				// Get new cell
 				var _newCellX = _cellX + sign(inputX);
@@ -28,14 +25,9 @@ switch (state) {
 		
 				// Move if no collisions
 				if (!_col) {
-					// Get new position (where you wanna move)
-					var _newX = _newCellX * CELLSIZE;
-					var _newY = _newCellY * CELLSIZE;
-					
 					// Set target
-					// Actual position will be the center of the new cell
-					targetX = _newX + CELLSIZE / 2;
-					targetY = _newY + CELLSIZE / 2;
+					targetX = to_room_coords(_newCellX) + CELLSIZE / 2;
+					targetY = to_room_coords(_newCellY) + CELLSIZE / 2;
 			
 					// Enable moving
 					moving = true;
@@ -52,32 +44,21 @@ switch (state) {
 		if (moving) {
 			// State
 			state_set(states.walk);
-		
-			// X movement
-			var _xDiff = targetX - x;
-	
-			if (abs(_xDiff) > moveSpeed) {
-				moveX = sign(_xDiff) * moveSpeed;
-			}
-			else {
-				x = targetX;
+			
+			// Reached
+			if (point_distance(x, y, targetX, targetY) <= moveSpeed) {
 				moveX = 0;
-			}
-	
-			// Y movement
-			var _yDiff = targetY - y;
-	
-			if (abs(_yDiff) > moveSpeed) {
-				moveY = sign(_yDiff) * moveSpeed;
-			}
-			else {
-				y = targetY;
 				moveY = 0;
-			}
-	
-			// Disable moving
-			if (x == targetX && y == targetY) {
+				
+				x = targetX;
+				y = targetY;
+				
 				moving = false;
+			}
+			// Not reached
+			else {
+				moveX = sign(targetX - x) * moveSpeed;
+				moveY = sign(targetY - y) * moveSpeed;
 			}
 		}
 		// Not moving
@@ -88,11 +69,11 @@ switch (state) {
 	break;
 }
 
-if (object_index == oPlayer) log("Movement: ", [moveX, moveY]);
-
 // Apply movement
 x += moveX;
 y += moveY;
+
+if (object_index == oPlayer) log("Movement: ", [x - xprevious, y - yprevious]);
 
 // Get movement direction
 var _dir = point_direction(0, 0, moveX, moveY);
