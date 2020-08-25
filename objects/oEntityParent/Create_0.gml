@@ -1,4 +1,8 @@
 /// @description 
+// Set position based on cell size
+x = to_room_coords(to_cell_coords(x)) + CELLSIZE / 2;
+y = to_room_coords(to_cell_coords(y)) + CELLSIZE / 2;
+
 // Set mask
 mask_index = sEntityMask;
 

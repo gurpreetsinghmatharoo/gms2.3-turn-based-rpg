@@ -1,8 +1,11 @@
 /// @description 
 // AI Path
 if (pathNextPoint > 0) {
+	var _pointX = path_get_point_x(path, pathNextPoint);
+	var _pointY = path_get_point_y(path, pathNextPoint);
+	
 	// Reached point
-	if (targetX == x && targetY == y) {
+	if (_pointX == x && _pointY == y) {
 		// Go to next point
 		pathNextPoint ++;
 		
