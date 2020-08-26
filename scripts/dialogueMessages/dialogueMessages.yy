@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Functions.yy",
+    "name": "Data",
+    "path": "folders/Scripts/Data.yy",
   },
   "resourceVersion": "1.0",
-  "name": "collisionFunctions",
+  "name": "dialogueMessages",
   "tags": [],
   "resourceType": "GMScript",
 }

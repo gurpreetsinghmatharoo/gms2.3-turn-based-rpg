@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Areas",
-    "path": "folders/Objects/SequenceGUI/Areas.yy",
+    "name": "Boxes",
+    "path": "folders/Objects/SequenceGUI/Boxes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oNameArea",
+  "name": "oImageBox",
   "tags": [],
   "resourceType": "GMObject",
 }

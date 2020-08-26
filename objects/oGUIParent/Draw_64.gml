@@ -1,2 +1,4 @@
 /// @description 
-draw_self();
+// Temporary fix for broken Sequences GUI
+// Disabled
+//draw_self();
