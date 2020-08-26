@@ -31,7 +31,7 @@
     "path": "folders/Objects/SequenceGUI/Areas.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTextArea",
+  "name": "oImageArea",
   "tags": [],
   "resourceType": "GMObject",
 }
