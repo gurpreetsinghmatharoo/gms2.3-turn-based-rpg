@@ -17,3 +17,6 @@ for (var _x = 0; _x < _width; _x ++) {
 		if (_cell) mp_grid_add_cell(global.AI_MPGrid, _x, _y);
 	}
 }
+
+// Managers
+global.textboxManager = instance_create_layer(x, y, layer, oTextboxManager);

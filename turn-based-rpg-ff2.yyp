@@ -36,7 +36,6 @@
     {"id":{"name":"sPlayer_Left_Walk","path":"sprites/sPlayer_Left_Walk/sPlayer_Left_Walk.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"sTilesetMain","path":"sprites/sTilesetMain/sTilesetMain.yy",},"order":0,},
-    {"id":{"name":"textboxFunctions","path":"scripts/textboxFunctions/textboxFunctions.yy",},"order":4,},
     {"id":{"name":"sTextboxNamebox","path":"sprites/sTextboxNamebox/sTextboxNamebox.yy",},"order":3,},
     {"id":{"name":"collisionFunctions","path":"scripts/collisionFunctions/collisionFunctions.yy",},"order":3,},
     {"id":{"name":"sTemplate_Right_Idle","path":"sprites/sTemplate_Right_Idle/sTemplate_Right_Idle.yy",},"order":2,},
