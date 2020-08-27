@@ -71,7 +71,7 @@
         {"resourceVersion":"1.0","resourceType":"InvisibleModifier",},
       ],"isCreationTrack":false,"resourceVersion":"1.0","name":"oTextArea","tags":[],"resourceType":"GMInstanceTrack",},
     {"keyframes":{"Keyframes":[
-          {"id":"c6a4652c-a8af-4cf8-990b-6f538653b5e8","Key":0.0,"Length":2.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"oTextboxNamebox","path":"objects/oTextboxNamebox/oTextboxNamebox.yy",},"resourceVersion":"1.0","resourceType":"AssetInstanceKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetInstanceKeyframe>",},
+          {"id":"c6a4652c-a8af-4cf8-990b-6f538653b5e8","Key":0.0,"Length":2.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"oTextboxName","path":"objects/oTextboxName/oTextboxName.yy",},"resourceVersion":"1.0","resourceType":"AssetInstanceKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetInstanceKeyframe>",},
         ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AssetInstanceKeyframe>",},"trackColour":4294068420,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
         {"keyframes":{"Keyframes":[
               {"id":"80a17bae-9cae-4d69-9a17-4fbffe2ab9e8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},

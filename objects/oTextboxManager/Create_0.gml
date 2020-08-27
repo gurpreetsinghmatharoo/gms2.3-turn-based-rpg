@@ -28,12 +28,12 @@ CreateDialogue = function (data, startMethod, endMethod) {
 	seqElm = layer_sequence_create(seqLayer, 0, 0, seqTextboxTemporary);
 	
 	// Method callbacks
-	//startMethod();
-	//endCallback = endMethod;
+	if (is_method(startMethod)) startMethod();
+	endCallback = endMethod;
 }
 
 // Draw image in box function
-function DrawImageInBox (boxInst, image) {
+DrawImageInBox = function (boxInst, image) {
 	// Static data
 	// This is like a Create event for this function
 	static frame = 0;
@@ -53,4 +53,23 @@ function DrawImageInBox (boxInst, image) {
 	
 	// Frames
 	frame += (1 / 60) * imageSpeed;
+}
+
+// Next line
+NextMessage = function () {
+	var _messageCount = array_length(messageData);
+	
+	// End
+	if (messageAt == _messageCount - 1) {
+		if (is_method(endCallback)) endCallback();
+		
+		layer_sequence_destroy(seqElm);
+		
+		alarm[0] = 20;
+	}
+	// Continue
+	else {
+		messageAt ++;
+		charAt = 0;
+	}
 }

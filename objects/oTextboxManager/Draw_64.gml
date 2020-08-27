@@ -1,7 +1,4 @@
 /// @description 
-log("SeqExist: ", layer_sequence_exists(seqLayer, seqElm));
-log("GUIExist: ", instance_exists(oGUIParent));
-
 // Draw textbox
 if (textboxEnabled && layer_sequence_exists(seqLayer, seqElm) && instance_exists(oGUIParent)) {
 	// (Temporary fix for broken Sequences GUI)

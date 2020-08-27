@@ -9,5 +9,5 @@ global.inputAxisX	= global.inputRight - global.inputLeft;
 global.inputAxisY	= global.inputDown	- global.inputUp;
 
 // Other input
-global.inputA			= keyboard_check(vk_space);
-global.inputAPressed	= keyboard_check_pressed(vk_space);
+global.inputSpace			= keyboard_check(vk_space);
+global.inputSpacePressed	= keyboard_check_pressed(vk_space);
