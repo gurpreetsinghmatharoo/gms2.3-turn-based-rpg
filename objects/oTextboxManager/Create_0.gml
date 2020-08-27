@@ -9,6 +9,13 @@ textboxEnabled = false;
 charAt = 0;
 messageAt = 0;
 
+// Waiting
+startWait = 12;
+endWait = 30;
+
+startTimer = 0;
+endTimer = 0;
+
 // Sequence
 seqElm = -1;
 seqLayer = layer_create(depth+100, "SequenceLayer");
@@ -58,6 +65,10 @@ DrawImageInBox = function (boxInst, image) {
 // Next line
 NextMessage = function () {
 	var _messageCount = array_length(messageData);
+	
+	// Reset timers
+	startTimer = 0;
+	endTimer = 0;
 	
 	// End
 	if (messageAt == _messageCount - 1) {
