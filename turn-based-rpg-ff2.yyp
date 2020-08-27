@@ -8,7 +8,7 @@
     {"id":{"name":"oSpaceKey","path":"objects/oSpaceKey/oSpaceKey.yy",},"order":5,},
     {"id":{"name":"sTemplate_Right_Walk","path":"sprites/sTemplate_Right_Walk/sTemplate_Right_Walk.yy",},"order":2,},
     {"id":{"name":"oTextboxManager","path":"objects/oTextboxManager/oTextboxManager.yy",},"order":3,},
-    {"id":{"name":"coordinates","path":"scripts/coordinates/coordinates.yy",},"order":0,},
+    {"id":{"name":"mathFunctions","path":"scripts/mathFunctions/mathFunctions.yy",},"order":0,},
     {"id":{"name":"sTemplate_Left_Walk","path":"sprites/sTemplate_Left_Walk/sTemplate_Left_Walk.yy",},"order":1,},
     {"id":{"name":"tCollision","path":"tilesets/tCollision/tCollision.yy",},"order":1,},
     {"id":{"name":"sTextboxBack","path":"sprites/sTextboxBack/sTextboxBack.yy",},"order":0,},

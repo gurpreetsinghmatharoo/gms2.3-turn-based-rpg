@@ -9,6 +9,7 @@ mask_index = sEntityMask;
 // Input variables (set in Begin Step)
 inputX = 0;
 inputY = 0;
+inputSpace = false;
 
 // Movement Properties
 moveSpeed = 1;

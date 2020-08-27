@@ -7,3 +7,7 @@ function to_cell_coords (val) {
 function to_room_coords (val) {
 	return val * CELLSIZE;
 }
+
+function get_4_directional (dir) {
+	return round(dir / 90) mod 4;
+}

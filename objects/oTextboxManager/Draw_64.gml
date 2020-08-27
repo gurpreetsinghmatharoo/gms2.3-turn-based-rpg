@@ -15,7 +15,9 @@ if (textboxEnabled && layer_sequence_exists(seqLayer, seqElm) && instance_exists
 	// Draw name
 	draw_set_font(ftDialogueName);
 	
-	draw_text(oNameBox.x, oNameBox.y, _name);
+	draw_set_halign(fa_center);
+	draw_text(oNameBox.x + oNameBox.sprite_width / 2, oNameBox.y, _name);
+	draw_set_halign(fa_left);
 	
 	// Draw image
 	if (sprite_exists(_image)) {

@@ -34,8 +34,7 @@ switch (state) {
 				}
 				// If there are collisions, at least face in that direction
 				else {
-					var _dir = point_direction(0, 0, inputX, inputY);
-					moveDirection = floor(_dir / 90) mod 4;
+					moveDirection = get_4_directional(point_direction(0, 0, inputX, inputY));
 				}
 			}
 		}
@@ -73,11 +72,8 @@ switch (state) {
 x += moveX;
 y += moveY;
 
-// Get movement direction
-var _dir = point_direction(0, 0, moveX, moveY);
-
 // Get direction from 0-3
-_dir = round(_dir / 90) mod 4;
+var _dir = get_4_directional(point_direction(0, 0, moveX, moveY));
 
 // Set direction if moving
 if (moveX != 0 || moveY != 0) {

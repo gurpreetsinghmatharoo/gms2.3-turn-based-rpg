@@ -5,12 +5,12 @@ global.messages = {};
 speakers = {
 	player : {
 		name : "Player",
-		image : sPlayer_Right_Walk,
+		image : sPlayer_Right_Idle,
 	},
 	
 	bob : {
 		name : "Bob",
-		image : sTemplate_Right_Walk,
+		image : sTemplate_Right_Idle,
 	}
 }
 
@@ -33,5 +33,3 @@ global.messages.bob_0 = [
 		message : "I know."
 	}
 ];
-
-
