@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -27,7 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"92057092-0858-4bdd-8929-6adbbd4f0935","path":"sprites/sGameManager/sGameManager.yy",},"LayerId":null,"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"92057092-0858-4bdd-8929-6adbbd4f0935","path":"sprites/sGameManager/sGameManager.yy",},"LayerId":{"name":"c54b2bd5-7495-49e6-902d-787d10056dc7","path":"sprites/sGameManager/sGameManager.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"92057092-0858-4bdd-8929-6adbbd4f0935","path":"sprites/sGameManager/sGameManager.yy",},"LayerId":{"name":"e2cc1877-ab80-411a-8a6b-ca778d57e3e1","path":"sprites/sGameManager/sGameManager.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"92057092-0858-4bdd-8929-6adbbd4f0935","path":"sprites/sGameManager/sGameManager.yy",},"LayerId":{"name":"sGameManager","path":"sprites/sGameManager/sGameManager.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"92057092-0858-4bdd-8929-6adbbd4f0935","path":"sprites/sGameManager/sGameManager.yy",},"LayerId":{"name":"f936eb26-7496-4c7a-ac94-7b01a9951428","path":"sprites/sGameManager/sGameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"92057092-0858-4bdd-8929-6adbbd4f0935","path":"sprites/sGameManager/sGameManager.yy",},"LayerId":{"name":"1c6606b5-792d-4b25-8474-6f3412e7c7bb","path":"sprites/sGameManager/sGameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGameManager","path":"sprites/sGameManager/sGameManager.yy",},"resourceVersion":"1.0","name":"92057092-0858-4bdd-8929-6adbbd4f0935","tags":[],"resourceType":"GMSpriteFrame",},

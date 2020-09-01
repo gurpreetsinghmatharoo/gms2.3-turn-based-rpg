@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSpaceKey",
-    "path": "sprites/sSpaceKey/sSpaceKey.yy",
+    "name": "sNextArrow",
+    "path": "sprites/sNextArrow/sNextArrow.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/SequenceGUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSpaceKey",
+  "name": "oNextArrow",
   "tags": [],
   "resourceType": "GMObject",
 }

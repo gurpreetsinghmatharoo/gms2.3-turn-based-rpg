@@ -42,3 +42,6 @@ states = {
 
 // State
 state = states.idle;
+
+// Icon sprite
+iconSprite = -1;

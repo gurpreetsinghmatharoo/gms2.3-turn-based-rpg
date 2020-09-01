@@ -19,8 +19,8 @@ if (textboxEnabled) {
 		}
 		else {
 			// Enable space key
-			if (instance_exists(oSpaceKey)) {
-				oSpaceKey.image_alpha = 1;
+			if (instance_exists(oNextArrow)) {
+				oNextArrow.image_alpha = 1;
 			}
 		
 			// Check for input
@@ -31,8 +31,8 @@ if (textboxEnabled) {
 	}
 	else {
 		// Disable space key
-		if (instance_exists(oSpaceKey)) {
-			oSpaceKey.image_alpha = 0;
+		if (instance_exists(oNextArrow)) {
+			oNextArrow.image_alpha = 0;
 		}
 	}
 }

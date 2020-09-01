@@ -16,4 +16,9 @@ if (instance_exists(_npcInst)) {
 		
 		_npcInst.moveDirection = get_4_directional(point_direction(_npcInst.x, _npcInst.y, x, y));
 	}
+	
+	// Show speech bubble
+	if (!global.textboxManager.textboxEnabled) {
+		_npcInst.iconSprite = sSpeechBubbleIcon;
+	}
 }
