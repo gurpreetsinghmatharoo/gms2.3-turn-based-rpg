@@ -22,7 +22,7 @@ global.messages.bob_0 = [
 	},
 	{
 		speaker : speakers.bob,
-		message : "Um, just waiting for Rob."
+		message : "Um, just waiting for Rob. He said he'd be here at 11... That guy is never on time! I hate him!"
 	},
 	{
 		speaker : speakers.bob,

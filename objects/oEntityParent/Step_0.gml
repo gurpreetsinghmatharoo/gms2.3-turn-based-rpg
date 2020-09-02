@@ -1,4 +1,8 @@
 /// @description 
+if (global.paused) {
+	exit;
+}
+
 // States
 switch (state) {
 	// Idle & walk share the same code

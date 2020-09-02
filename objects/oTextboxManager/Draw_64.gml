@@ -29,5 +29,5 @@ if (textboxEnabled && layer_sequence_exists(seqLayer, seqElm) && instance_exists
 	
 	draw_set_font(ftDialogueMessage);
 	
-	draw_text(oMessageBox.x, oMessageBox.y, _str);
+	draw_text_ext(oMessageBox.x, oMessageBox.y, _str, -1, oMessageBox.sprite_width);
 }

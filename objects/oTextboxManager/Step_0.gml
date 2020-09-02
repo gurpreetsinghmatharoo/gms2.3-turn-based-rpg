@@ -1,17 +1,25 @@
 /// @description 
 // Textbox enabled
 if (textboxEnabled) {
+	var _data = messageData[messageAt];
+	var _length = string_length(_data.message);
+	var _character = string_char_at(_data.message, charAt);
+	
+	// Start timer
 	if (startTimer < startWait) {
 		startTimer ++;
 	}
 	else {
-		charAt += charSpeed;
+		var _newCharSpeed = charSpeed;
+		
+		if (_character == "." || _character == ",") {
+			_newCharSpeed /= 8;
+		}
+		
+		charAt += _newCharSpeed;
 	}
 	
 	// Check if finished
-	var _data = messageData[messageAt];
-	var _length = string_length(_data.message);
-	
 	if (charAt >= _length) {
 		// Timer
 		if (endTimer < endWait) {
