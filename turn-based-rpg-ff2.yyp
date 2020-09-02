@@ -5,6 +5,7 @@
     {"id":{"name":"sPlayer_Up_Idle","path":"sprites/sPlayer_Up_Idle/sPlayer_Up_Idle.yy",},"order":3,},
     {"id":{"name":"sNextArrow","path":"sprites/sNextArrow/sNextArrow.yy",},"order":5,},
     {"id":{"name":"sTextboxMask","path":"sprites/sTextboxMask/sTextboxMask.yy",},"order":2,},
+    {"id":{"name":"gameManagerFunctions","path":"scripts/gameManagerFunctions/gameManagerFunctions.yy",},"order":3,},
     {"id":{"name":"oNextArrow","path":"objects/oNextArrow/oNextArrow.yy",},"order":5,},
     {"id":{"name":"sTemplate_Right_Walk","path":"sprites/sTemplate_Right_Walk/sTemplate_Right_Walk.yy",},"order":2,},
     {"id":{"name":"oTextboxManager","path":"objects/oTextboxManager/oTextboxManager.yy",},"order":3,},

@@ -12,7 +12,7 @@ var _npcInst = instance_position(_checkX, _checkY, oNPCParent);
 if (instance_exists(_npcInst)) {
 	// Check for input
 	if (inputSpace && is_array(_npcInst.messageData)) {
-		global.textboxManager.CreateDialogue(_npcInst.messageData, -1, -1);
+		global.textboxManager.CreateDialogue(_npcInst.messageData, method(undefined, game_pause), method(undefined, game_unpause));
 		
 		_npcInst.moveDirection = get_4_directional(point_direction(_npcInst.x, _npcInst.y, x, y));
 	}

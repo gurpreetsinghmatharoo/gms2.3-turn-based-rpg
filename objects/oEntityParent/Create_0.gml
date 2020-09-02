@@ -45,3 +45,11 @@ state = states.idle;
 
 // Icon sprite
 iconSprite = -1;
+
+// Set sprite from state (function is made later in course)
+SetSprite = function (state) {
+	if (moveDirection == 0) sprite_index = state.right;
+	else if (moveDirection == 1) sprite_index = state.up;
+	else if (moveDirection == 2) sprite_index = state.left;
+	else if (moveDirection == 3) sprite_index = state.down;
+}

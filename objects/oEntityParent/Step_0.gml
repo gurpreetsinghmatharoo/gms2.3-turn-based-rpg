@@ -1,5 +1,6 @@
 /// @description 
 if (global.paused) {
+	SetSprite(states.idle);
 	exit;
 }
 
@@ -84,8 +85,10 @@ if (moveX != 0 || moveY != 0) {
 	moveDirection = _dir;
 }
 
-// Set sprite based on direction
-if (moveDirection == 0) sprite_index = state.right;
-else if (moveDirection == 1) sprite_index = state.up;
-else if (moveDirection == 2) sprite_index = state.left;
-else if (moveDirection == 3) sprite_index = state.down;
+// Set sprite based on direction (moved to function call)
+//if (moveDirection == 0) sprite_index = state.right;
+//else if (moveDirection == 1) sprite_index = state.up;
+//else if (moveDirection == 2) sprite_index = state.left;
+//else if (moveDirection == 3) sprite_index = state.down;
+
+SetSprite(state);

@@ -12,8 +12,14 @@ if (textboxEnabled) {
 	else {
 		var _newCharSpeed = charSpeed;
 		
-		if (_character == "." || _character == ",") {
+		// Slow character
+		if (_character == "." || _character == "," || _character == "!") {
 			_newCharSpeed /= 8;
+		}
+		
+		// Speed up
+		if (global.inputSpace) {
+			_newCharSpeed *= 2;
 		}
 		
 		charAt += _newCharSpeed;
