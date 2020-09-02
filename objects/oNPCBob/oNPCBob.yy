@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTemplate_Down_Idle",
-    "path": "sprites/sTemplate_Down_Idle/sTemplate_Down_Idle.yy",
+    "name": "sBob_Down_Idle",
+    "path": "sprites/sBob_Down_Idle/sBob_Down_Idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNPCBasic","path":"objects/oNPCBasic/oNPCBasic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNPCBob","path":"objects/oNPCBob/oNPCBob.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/NPCs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oNPCBasic",
+  "name": "oNPCBob",
   "tags": [],
   "resourceType": "GMObject",
 }

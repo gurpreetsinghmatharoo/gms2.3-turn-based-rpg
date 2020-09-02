@@ -34,8 +34,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPCs",
-    "path": "folders/Objects/NPCs.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oAIParent",
