@@ -10,7 +10,12 @@ speakers = {
 	
 	bob : {
 		name : "Bob",
-		image : sTemplate_Right_Idle,
+		image : sBob_Right_Idle,
+	},
+	
+	jessica : {
+		name : "Jessica",
+		image : sJessica_Right_Idle,
 	}
 }
 
@@ -33,3 +38,30 @@ global.messages.bob_0 = [
 		message : "I know."
 	}
 ];
+
+global.messages.jessica_0 = [
+	{
+		speaker : speakers.jessica,
+		message : "Oh hey! Can you help me out here?"
+	},
+	{
+		speaker : speakers.player,
+		message : "Sure, what do you need?"
+	},
+	{
+		speaker : speakers.jessica,
+		message : "I lost my pizza cutter. I can't eat my pizza without it!"
+	},
+	{
+		speaker : speakers.jessica,
+		message : "I'm sure it's somewhere around here."
+	},
+	{
+		speaker : speakers.player,
+		message : "Sure, I'll find it."
+	},
+	{
+		speaker : speakers.jessica,
+		message : "Quick, my pizza is going cold!"
+	}
+]
