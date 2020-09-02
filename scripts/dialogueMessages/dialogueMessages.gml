@@ -13,6 +13,11 @@ speakers = {
 		image : sBob_Right_Idle,
 	},
 	
+	rob : {
+		name : "Rob",
+		image : sBob_Right_Idle,
+	},
+	
 	jessica : {
 		name : "Jessica",
 		image : sJessica_Right_Idle,
@@ -38,6 +43,13 @@ global.messages.bob_0 = [
 		message : "I know."
 	}
 ];
+
+global.messages.rob_0 = [
+	{
+		speaker : speakers.rob,
+		message : "Lemme walk, bud."
+	}
+]
 
 global.messages.jessica_0 = [
 	{
