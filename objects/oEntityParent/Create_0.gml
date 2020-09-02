@@ -53,3 +53,16 @@ SetSprite = function (state) {
 	else if (moveDirection == 2) sprite_index = state.left;
 	else if (moveDirection == 3) sprite_index = state.down;
 }
+
+// Stat getters
+GetHP = function () {
+	return hp;
+}
+
+GetAttack = function () {
+	return attack;
+}
+
+GetDefense = function () {
+	return defense;
+}

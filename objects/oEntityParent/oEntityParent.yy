@@ -23,7 +23,11 @@
     {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"attack","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"defense","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
