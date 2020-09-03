@@ -74,6 +74,6 @@ global.messages.jessica_0 = [
 	},
 	{
 		speaker : speakers.jessica,
-		message : "Quick, my pizza is going cold!"
+		message : "Quick, my pizza is getting cold!"
 	}
 ]

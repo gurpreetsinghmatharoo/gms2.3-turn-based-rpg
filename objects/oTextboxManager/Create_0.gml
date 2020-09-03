@@ -35,7 +35,7 @@ CreateDialogue = function (data, startMethod, endMethod) {
 	seqElm = layer_sequence_create(seqLayer, 0, 0, seqTextbox);
 	
 	// Method callbacks
-	if (is_method(startMethod)) startMethod();
+	//if (is_method(startMethod)) startMethod();
 	endCallback = endMethod;
 }
 

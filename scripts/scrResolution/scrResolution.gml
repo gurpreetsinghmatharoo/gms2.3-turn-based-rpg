@@ -6,11 +6,14 @@ global.Resolution = {
 	scale : 4
 }
 
-// Set resolution
-surface_resize(application_surface, global.Resolution.width, global.Resolution.height);
+var _width = global.Resolution.width * global.Resolution.scale;
+var _height = global.Resolution.height * global.Resolution.scale;
 
-// Set window size
-window_set_size(
-	global.Resolution.width * global.Resolution.scale,
-	global.Resolution.height * global.Resolution.scale
-);
+// Set resolution
+surface_resize(application_surface, _width, _height);
+
+// Window
+window_set_size(_width, _height);
+
+// GUI
+display_set_gui_size(_width, _height);

@@ -3,7 +3,7 @@ function sequence_layer_draw_begin () {
 	
 	// Create
 	if (!surface_exists(global.seqSurf)) {
-		global.seqSurf = surface_create(global.Resolution.width, global.Resolution.height);
+		global.seqSurf = surface_create(display_get_gui_width(), display_get_gui_height());
 	}
 	
 	// Set target
