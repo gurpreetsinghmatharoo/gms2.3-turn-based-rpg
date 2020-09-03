@@ -5,7 +5,7 @@ if (keyboard_check_pressed(vk_escape) && !global.textboxManager.textboxEnabled) 
 	
 	// Paused
 	if (global.paused) {
-		pauseSeqElm = layer_sequence_create("LayerSequence", 0, 0, seqPause);
+		pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqPause);
 	}
 	// Unpaused
 	else {
