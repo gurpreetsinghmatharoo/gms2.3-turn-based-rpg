@@ -1,4 +1,6 @@
 /// @description 
+if (global.paused) exit;
+
 // Coordinates to check
 var _len = CELLSIZE;
 var _dir = moveDirection * 90;
