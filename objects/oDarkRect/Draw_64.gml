@@ -1,2 +1,0 @@
-/// @description 
-draw_self();
