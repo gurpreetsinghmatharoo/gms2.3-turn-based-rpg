@@ -60,14 +60,29 @@ attack = maxAttack;
 defense = maxDefense;
 
 // Stat getters
+// HP
 GetHP = function () {
 	return hp;
 }
 
+GetMaxHP = function () {
+	return maxHP;
+}
+
+// Attack
 GetAttack = function () {
 	return attack;
 }
 
+GetMaxAttack = function () {
+	return maxAttack;
+}
+
+// Defense
 GetDefense = function () {
 	return defense;
+}
+
+GetMaxDefense = function () {
+	return maxDefense;
 }
