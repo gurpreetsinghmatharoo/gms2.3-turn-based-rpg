@@ -1,4 +1,14 @@
 /// @description 
-if (keyboard_check_pressed(vk_escape)) {
+// Pause
+if (keyboard_check_pressed(vk_escape) && !global.textboxManager.textboxEnabled) {
 	global.paused = !global.paused;
+	
+	// Paused
+	if (global.paused) {
+		pauseSeqElm = layer_sequence_create("LayerSequence", 0, 0, seqPause);
+	}
+	// Unpaused
+	else {
+		layer_sequence_destroy(pauseSeqElm);
+	}
 }
