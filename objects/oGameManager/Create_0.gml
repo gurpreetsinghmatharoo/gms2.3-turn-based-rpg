@@ -3,6 +3,13 @@
 global.paused = false;
 pauseSeqElm = -1;
 
+// GUI Sequence
+global.seqLayer = layer_get_id("LayerSequence");
+global.seqSurf = -1;
+
+layer_script_begin(global.seqLayer, sequence_layer_draw_begin);
+layer_script_end(global.seqLayer, sequence_layer_draw_end);
+
 // Get tilemap used for collisions
 global.collisionTilemap = layer_tilemap_get_id("Tiles_Collision");
 

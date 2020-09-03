@@ -18,7 +18,7 @@ endTimer = 0;
 
 // Sequence
 seqElm = -1;
-seqLayer = layer_create(depth+100, "SequenceLayer");
+seqLayer = global.seqLayer;
 
 // Create dialogue function
 endCallback = -1;

@@ -3,7 +3,8 @@
 if (textboxEnabled && layer_sequence_exists(seqLayer, seqElm) && instance_exists(oGUIParent)) {
 	// (Temporary fix for broken Sequences GUI)
 	// Draw GUI objects
-	with (oGUIParent) draw_self();
+	//with (oGUIParent) draw_self();
+	if (surface_exists(global.seqSurf)) draw_surface(global.seqSurf, 0, 0);
 	
 	// Message data
 	var _data = messageData[messageAt];

@@ -67,6 +67,7 @@
     {"id":{"name":"oTextboxName","path":"objects/oTextboxName/oTextboxName.yy",},"order":4,},
     {"id":{"name":"sPlayer_Left_Idle","path":"sprites/sPlayer_Left_Idle/sPlayer_Left_Idle.yy",},"order":1,},
     {"id":{"name":"sPlayer_Down_Idle","path":"sprites/sPlayer_Down_Idle/sPlayer_Down_Idle.yy",},"order":0,},
+    {"id":{"name":"layerFunctions","path":"scripts/layerFunctions/layerFunctions.yy",},"order":4,},
     {"id":{"name":"oNPCBob","path":"objects/oNPCBob/oNPCBob.yy",},"order":2,},
     {"id":{"name":"sPlayer_Right_Idle","path":"sprites/sPlayer_Right_Idle/sPlayer_Right_Idle.yy",},"order":2,},
     {"id":{"name":"sBob_Down_Walk","path":"sprites/sBob_Down_Walk/sBob_Down_Walk.yy",},"order":0,},
