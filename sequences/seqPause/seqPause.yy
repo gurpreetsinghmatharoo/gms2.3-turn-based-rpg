@@ -19,7 +19,7 @@
   },
   "tracks": [
     {"keyframes":{"Keyframes":[
-          {"id":"e51ebe9d-6313-4ae8-8e5d-9790848fe8dc","Key":0.0,"Length":30.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"oDarkRect","path":"objects/oDarkRect/oDarkRect.yy",},"resourceVersion":"1.0","resourceType":"AssetInstanceKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetInstanceKeyframe>",},
+          {"id":"e51ebe9d-6313-4ae8-8e5d-9790848fe8dc","Key":0.0,"Length":30.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"","path":"",},"resourceVersion":"1.0","resourceType":"AssetInstanceKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetInstanceKeyframe>",},
         ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AssetInstanceKeyframe>",},"trackColour":4282970855,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
         {"keyframes":{"Keyframes":[
               {"id":"562467fe-fc36-4a18-882b-c6b398e3b082","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":null,"Colour":16777215,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"ColourKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<ColourKeyframe>",},
@@ -66,7 +66,7 @@
                 ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068427,"inheritsTrackColour":true,"builtinName":15,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"scale","tags":[],"resourceType":"GMRealTrack",},
           ],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"oPlayerStatsBox","tags":[],"resourceType":"GMInstanceTrack",},
         {"keyframes":{"Keyframes":[
-              {"id":"f38ff846-48f5-4a51-8c49-5c2c70df33ac","Key":0.0,"Length":30.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"oStatsWindow","path":"objects/oStatsWindow/oStatsWindow.yy",},"resourceVersion":"1.0","resourceType":"AssetInstanceKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetInstanceKeyframe>",},
+              {"id":"f38ff846-48f5-4a51-8c49-5c2c70df33ac","Key":0.0,"Length":30.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"","path":"",},"resourceVersion":"1.0","resourceType":"AssetInstanceKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetInstanceKeyframe>",},
             ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AssetInstanceKeyframe>",},"trackColour":4294068427,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
             {"keyframes":{"Keyframes":[
                   {"id":"daf482f7-3d87-4914-aac0-12479976d438","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":null,"Colour":16777215,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"ColourKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<ColourKeyframe>",},

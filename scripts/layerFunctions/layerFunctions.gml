@@ -8,6 +8,7 @@ function sequence_layer_draw_begin () {
 	
 	// Set target
 	surface_set_target(global.seqSurf);
+	draw_clear_alpha(0, 0);
 }
 
 function sequence_layer_draw_end () {

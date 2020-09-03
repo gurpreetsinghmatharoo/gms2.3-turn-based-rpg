@@ -21,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "SequenceGUI",
-    "path": "folders/Objects/SequenceGUI.yy",
+    "name": "Boxes",
+    "path": "folders/Objects/SequenceGUI/Boxes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGUIParent",
+  "name": "oGUIBoxParent",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oGUIParent",
-    "path": "objects/oGUIParent/oGUIParent.yy",
+    "name": "oGUIBoxParent",
+    "path": "objects/oGUIBoxParent/oGUIBoxParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
