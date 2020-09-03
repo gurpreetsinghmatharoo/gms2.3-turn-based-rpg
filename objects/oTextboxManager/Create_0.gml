@@ -32,7 +32,7 @@ CreateDialogue = function (data, startMethod, endMethod) {
 	textboxEnabled = true;
 	
 	// Create sequence element
-	seqElm = layer_sequence_create(seqLayer, 0, 0, seqTextboxTemporary);
+	seqElm = layer_sequence_create(seqLayer, 0, 0, seqTextbox);
 	
 	// Method callbacks
 	if (is_method(startMethod)) startMethod();
