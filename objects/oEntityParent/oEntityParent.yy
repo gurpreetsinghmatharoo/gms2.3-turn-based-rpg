@@ -27,6 +27,7 @@
     {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"maxHP","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"maxAttack","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"maxDefense","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"\"Player\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"name","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

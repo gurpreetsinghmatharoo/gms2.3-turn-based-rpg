@@ -1,6 +1,7 @@
 /// @description 
 if (global.paused) exit;
 
+#region NPC Interaction
 // Coordinates to check
 var _len = CELLSIZE;
 var _dir = moveDirection * 90;
@@ -24,3 +25,20 @@ if (instance_exists(_npcInst)) {
 		_npcInst.iconSprite = sSpeechBubbleIcon;
 	}
 }
+#endregion
+
+#region Enemy Interaction
+var _nearestEnemy = instance_nearest(x, y, oEnemyParent);
+
+if (instance_exists(_nearestEnemy)) {
+	var _xDistance = abs(_nearestEnemy.x - x);
+	var _yDistance = abs(_nearestEnemy.y - y);
+	
+	if (_xDistance <= CELLSIZE && _yDistance <= CELLSIZE) {
+		var _battleManager = instance_create_depth(0, 0, 0, oBattleManager);
+		_battleManager.InitBattle(self, [
+			_nearestEnemy
+		]);
+	}
+}
+#endregion
