@@ -29,12 +29,10 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"maxHP","path":"objects/oEntityParent/oEntityParent.yy",},"objectId":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"value":"40","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"moves","path":"objects/oAIParent/oAIParent.yy",},"objectId":{"name":"oAIParent","path":"objects/oAIParent/oAIParent.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"moveRadius","path":"objects/oAIParent/oAIParent.yy",},"objectId":{"name":"oAIParent","path":"objects/oAIParent/oAIParent.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",
-    "path": "folders/Objects/NPCs/Enemies.yy",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "oEnemyMaskedGoon",
