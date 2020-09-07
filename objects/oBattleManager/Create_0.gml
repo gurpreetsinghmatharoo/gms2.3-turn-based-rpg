@@ -15,7 +15,8 @@ selectedOpponent = -1;
 
 choosing = true;
 
-// Action box IDs
+// Box IDs
+global.enemyBoxID = 1;
 global.actionBoxID = 0;
 
 // Initiate battle
