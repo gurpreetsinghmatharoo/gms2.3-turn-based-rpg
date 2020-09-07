@@ -92,6 +92,7 @@
     {"id":{"name":"sGameManager","path":"sprites/sGameManager/sGameManager.yy",},"order":1,},
     {"id":{"name":"oBattleActionBox","path":"objects/oBattleActionBox/oBattleActionBox.yy",},"order":3,},
     {"id":{"name":"scrResolution","path":"scripts/scrResolution/scrResolution.yy",},"order":0,},
+    {"id":{"name":"ftBattle","path":"fonts/ftBattle/ftBattle.yy",},"order":3,},
     {"id":{"name":"sPlayer_Up_Walk","path":"sprites/sPlayer_Up_Walk/sPlayer_Up_Walk.yy",},"order":3,},
     {"id":{"name":"oGUIBoxParent","path":"objects/oGUIBoxParent/oGUIBoxParent.yy",},"order":0,},
     {"id":{"name":"sMaskedGoon_Up_Idle","path":"sprites/sMaskedGoon_Up_Idle/sMaskedGoon_Up_Idle.yy",},"order":2,},
