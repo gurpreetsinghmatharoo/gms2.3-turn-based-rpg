@@ -1,4 +1,6 @@
 /// @description 
+isSelected = false;
+
 /// @func	DrawImage
 DrawImage = function (image) {
 	// Static data

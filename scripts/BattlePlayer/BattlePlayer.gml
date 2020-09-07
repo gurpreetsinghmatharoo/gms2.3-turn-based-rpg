@@ -14,21 +14,32 @@ function BattlePlayer (_instance, _boxInstance) constructor {
 	
 	/// @func	SelectOpponent
 	SelectOpponent = function () {
-		
+		with (oBattleEnemyBox) {
+			if (isSelected && is_struct(battlePlayer)) return battlePlayer;
+		}
 		
 		return -1;
 	}
 }
 
 function BattlePlayerAI (_name, _instances, _boxInstance) : BattlePlayer (_name, _instances, _boxInstance) constructor {
-	/// @func	Input
-	/// @desc	Select random action from instance
-	Input = function () {
+	SelectAction = function () {
 		if (irandom(100) < 3) {
 			var _len = array_length(instance.actions);
 			var _index = irandom(_len - 1);
 			
 			return instance.actions[_index];
+		}
+		
+		return -1;
+	}
+	
+	SelectOpponent = function (_list) {
+		if (irandom(100) < 3) {
+			var _len = ds_list_size(_list);
+			var _index = irandom(_len - 1);
+			
+			return _list[| _index];
 		}
 		
 		return -1;

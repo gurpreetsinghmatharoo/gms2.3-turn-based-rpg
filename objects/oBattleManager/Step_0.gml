@@ -2,6 +2,11 @@
 // Vars
 var _battlePlayer = listOfPlayers[| activeTurn];
 
+log("Turn: ", activeTurn);
+log("Choosing: ", choosing);
+log("activeAction: ", activeAction);
+log("selectedOpponent: ", selectedOpponent);
+
 // Choosing
 if (choosing) {
 	// Select action
