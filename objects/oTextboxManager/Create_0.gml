@@ -39,29 +39,6 @@ CreateDialogue = function (data, startMethod, endMethod) {
 	endCallback = endMethod;
 }
 
-// Draw image in box function
-DrawImageInBox = function (boxInst, image) {
-	// Static data
-	// This is like a Create event for this function
-	static frame = 0;
-	static imageSpeed = sprite_get_speed(image);
-	static width = sprite_get_width(image);
-	static height = sprite_get_height(image);
-	static boxWidth = boxInst.sprite_width;
-	static boxHeight = boxInst.sprite_height;
-	
-	static scaleX = boxWidth / width;
-	static scaleY = boxHeight / height;
-	
-	// Draw
-	draw_sprite_ext(image, frame,
-		(boxInst.x + boxWidth / 2), (boxInst.y + boxHeight / 2),
-		scaleX, scaleY, 0, -1, 1);
-	
-	// Frames
-	frame += (1 / 60) * imageSpeed;
-}
-
 // Next line
 NextMessage = function () {
 	var _messageCount = array_length(messageData);

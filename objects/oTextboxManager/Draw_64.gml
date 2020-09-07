@@ -20,7 +20,7 @@ if (textboxEnabled && layer_sequence_exists(seqLayer, seqElm) && instance_exists
 	
 	// Draw image
 	if (sprite_exists(_image)) {
-		DrawImageInBox(oImageBox, _image);
+		oImageBox.DrawImage(_image);
 	}
 	
 	// Draw message
