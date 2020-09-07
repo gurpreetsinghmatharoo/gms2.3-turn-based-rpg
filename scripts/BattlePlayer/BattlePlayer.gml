@@ -2,12 +2,19 @@ function BattlePlayer (_instance, _boxInstance) constructor {
 	instance = _instance;
 	boxInstance = _boxInstance;
 	
-	/// @func	Input
+	/// @func	SelectAction
 	/// @desc	Get selected action
-	Input = function () {
+	SelectAction = function () {
 		with (oBattleActionBox) {
 			if (isSelected && is_struct(action)) return action;
 		}
+		
+		return -1;
+	}
+	
+	/// @func	SelectOpponent
+	SelectOpponent = function () {
+		
 		
 		return -1;
 	}

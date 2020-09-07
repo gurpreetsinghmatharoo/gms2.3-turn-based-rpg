@@ -5,11 +5,14 @@ function Action () constructor {
 	// Variables
 	done = false;
 	
-	// Method
+	/// @func	Initiate
 	Initiate = function () {
 		done = true;
 	}
 	
+	/// @func	Effect
+	/// @arg	user
+	/// @arg	opponent
 	Effect = function (user, opponent) {}
 }
 
