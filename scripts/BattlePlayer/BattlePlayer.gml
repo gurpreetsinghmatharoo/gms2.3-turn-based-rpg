@@ -6,7 +6,13 @@ function BattlePlayer (_instance, _boxInstance) constructor {
 		var _sprite = instance.states.idle.left;
 		if (instance.object_index == oPlayer) _sprite = instance.states.idle.right;
 		
-		if (instance_exists(boxInstance)) boxInstance.DrawImage(_sprite);
+		if (instance_exists(boxInstance)) {
+			// Image
+			boxInstance.DrawImage(_sprite);
+			
+			// Health
+			boxInstance.DrawBar(instance.GetHP(), instance.GetMaxHP(), "HP", 0.9, 0.1, c_yellow, c_red);
+		}
 	}
 }
 
