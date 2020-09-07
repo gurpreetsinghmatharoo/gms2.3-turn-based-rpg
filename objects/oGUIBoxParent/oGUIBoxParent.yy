@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTextboxLayout",
+    "path": "sprites/sTextboxLayout/sTextboxLayout.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

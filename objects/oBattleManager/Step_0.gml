@@ -4,21 +4,21 @@ var _battlePlayer = listOfPlayers[| activeTurn];
 
 log("Turn: ", activeTurn);
 log("Choosing: ", choosing);
-log("activeAction: ", activeAction);
+log("selectedAction: ", selectedAction);
 log("selectedOpponent: ", selectedOpponent);
 
 // Choosing
 if (choosing) {
 	// Select action
-	if (!is_struct(activeAction)) {
+	if (!is_struct(selectedAction)) {
 		var _action = _battlePlayer.SelectAction();
 		
 		// Got action
 		if (is_struct(_action)) {
-			activeAction = _action;
+			selectedAction = _action;
 		
 			// Initiate
-			activeAction.Initiate();
+			selectedAction.Initiate();
 		}
 	}
 	// Select opponent
@@ -36,9 +36,9 @@ if (choosing) {
 // Executing
 else {
 	// Done
-	if (activeAction.done) {
+	if (selectedAction.done) {
 		// Effect
-		activeAction.Effect(_battlePlayer, selectedOpponent);
+		selectedAction.Effect(_battlePlayer.instance, selectedOpponent.instance);
 		
 		// Next turn
 		activeTurn ++;
@@ -46,5 +46,10 @@ else {
 		if (activeTurn >= ds_list_size(listOfPlayers)) {
 			activeTurn = 0;
 		}
+		
+		// Reset vars
+		choosing = true;
+		selectedAction = -1;
+		selectedOpponent = -1;
 	}
 }

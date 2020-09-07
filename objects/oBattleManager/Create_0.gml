@@ -9,7 +9,7 @@ battleSeq = layer_sequence_create(global.seqLayer, 0, 0, seqBattleScene);
 listOfPlayers = ds_list_create();
 
 activeTurn = 0;
-activeAction = -1;
+selectedAction = -1;
 
 selectedOpponent = -1;
 

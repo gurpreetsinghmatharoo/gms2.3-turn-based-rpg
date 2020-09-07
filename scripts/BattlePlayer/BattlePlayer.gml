@@ -36,10 +36,7 @@ function BattlePlayerAI (_name, _instances, _boxInstance) : BattlePlayer (_name,
 	
 	SelectOpponent = function (_list) {
 		if (irandom(100) < 3) {
-			var _len = ds_list_size(_list);
-			var _index = irandom(_len - 1);
-			
-			return _list[| _index];
+			return _list[| 0];
 		}
 		
 		return -1;
