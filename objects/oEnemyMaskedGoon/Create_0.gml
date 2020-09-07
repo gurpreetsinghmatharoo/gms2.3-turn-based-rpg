@@ -21,3 +21,6 @@ states = {
 }
 
 state = states.idle;
+
+// Actions
+actions = [Punch, Slap];

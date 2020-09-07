@@ -7,7 +7,11 @@ battleSeq = layer_sequence_create(global.seqLayer, 0, 0, seqBattleScene);
 
 // Battle data
 listOfPlayers = ds_list_create();
-playerTurn = 0;
+
+activeTurn = 0;
+activeAttack = -1;
+
+choosing = true;
 
 // Initiate battle
 /// @func	InitBattle

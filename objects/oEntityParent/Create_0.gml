@@ -43,6 +43,9 @@ states = {
 // State
 state = states.idle;
 
+// Actions
+actions = [];
+
 // Icon sprite
 iconSprite = -1;
 
