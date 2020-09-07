@@ -11,7 +11,7 @@ function BattlePlayer (_instance, _boxInstance) constructor {
 			boxInstance.DrawImage(_sprite);
 			
 			// Health
-			boxInstance.DrawBar(instance.GetHP(), instance.GetMaxHP(), "HP", 0.9, 0.1, c_yellow, c_red);
+			boxInstance.DrawBar(instance.GetHP(), instance.GetMaxHP(), "HP", 0.9, 0.1, c_green, c_maroon);
 		}
 	}
 }

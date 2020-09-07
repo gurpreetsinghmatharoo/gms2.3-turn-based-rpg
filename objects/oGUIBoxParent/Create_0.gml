@@ -27,7 +27,10 @@ DrawBar = function (value, maxValue, text, drawY, drawHeight, maxColor, minColor
 	var _x2 = _x1 + sprite_width;
 	var _y2 = _y1 + drawHeight * sprite_height;
 	
-	draw_healthbar(_x1, _y1, _x2, _y2, (value / maxValue), -1, minColor, maxColor, 0, false, false);
+	// Bar
+	draw_healthbar(_x1, _y1, _x2, _y2, (value / maxValue) * 100, -1, minColor, maxColor, 0, false, false);
+	
+	// Text
 	draw_set_font(ftStats);
-	draw_text(_x1 + 4, _y1 + 4, text);
+	draw_text(_x1 + 4, _y1 - 8, text);
 }
