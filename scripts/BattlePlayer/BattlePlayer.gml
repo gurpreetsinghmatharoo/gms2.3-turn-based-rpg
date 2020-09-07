@@ -18,20 +18,6 @@ function BattlePlayer (_instance, _boxInstance) constructor {
 		
 		return -1;
 	}
-	
-	/// @func	Draw
-	Draw = function () {
-		var _sprite = instance.states.idle.left;
-		if (instance.object_index == oPlayer) _sprite = instance.states.idle.right;
-		
-		if (instance_exists(boxInstance)) {
-			// Image
-			boxInstance.DrawImage(_sprite);
-			
-			// Health
-			boxInstance.DrawBar(instance.GetHP(), instance.GetMaxHP(), "HP", 0.9, 0.1, c_green, c_maroon);
-		}
-	}
 }
 
 function BattlePlayerAI (_name, _instances, _boxInstance) : BattlePlayer (_name, _instances, _boxInstance) constructor {
