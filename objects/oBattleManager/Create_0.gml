@@ -11,7 +11,12 @@ listOfPlayers = ds_list_create();
 activeTurn = 0;
 activeAttack = -1;
 
+selectedOpponent = -1;
+
 choosing = true;
+
+// Action box IDs
+global.actionBoxID = 0;
 
 // Initiate battle
 /// @func	InitBattle

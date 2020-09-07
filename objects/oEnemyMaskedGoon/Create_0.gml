@@ -23,4 +23,7 @@ states = {
 state = states.idle;
 
 // Actions
-actions = [Punch, Slap];
+actions = [
+	new Punch(),
+	new Slap()
+];

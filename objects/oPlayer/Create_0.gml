@@ -4,4 +4,9 @@
 event_inherited();
 
 // Actions
-actions = [Punch, Kick, Heal, Slap];
+actions = [
+	new Punch(),
+	new Kick(),
+	new Heal(),
+	new Slap()
+];
