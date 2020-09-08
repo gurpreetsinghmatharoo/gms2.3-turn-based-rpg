@@ -1,6 +1,5 @@
-function BattlePlayer (_instance, _boxInstance) constructor {
+function BattlePlayer (_instance) constructor {
 	instance = _instance;
-	boxInstance = _boxInstance;
 	
 	/// @func	SelectAction
 	/// @desc	Get selected action

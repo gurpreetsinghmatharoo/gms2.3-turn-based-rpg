@@ -2,11 +2,6 @@
 // Vars
 var _battlePlayer = listOfPlayers[| activeTurn];
 
-log("Turn: ", activeTurn);
-log("Choosing: ", choosing);
-log("selectedAction: ", selectedAction);
-log("selectedOpponent: ", selectedOpponent);
-
 // Choosing
 if (choosing) {
 	// Select action
@@ -51,5 +46,8 @@ else {
 		choosing = true;
 		selectedAction = -1;
 		selectedOpponent = -1;
+		
+		// Check if over
+		CheckOver();
 	}
 }

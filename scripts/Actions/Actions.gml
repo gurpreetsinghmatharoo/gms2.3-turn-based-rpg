@@ -3,7 +3,7 @@ function Action () constructor {
 	name = "";
 	
 	// Variables
-	done = false;
+	done = false; // Placeholder, to be replaced with the sequence element it creates
 	
 	/// @func	Initiate
 	Initiate = function () {

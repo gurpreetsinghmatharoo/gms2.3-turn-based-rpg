@@ -30,7 +30,7 @@ if (instance_exists(_npcInst)) {
 #region Enemy Interaction
 var _nearestEnemy = instance_nearest(x, y, oEnemyParent);
 
-if (instance_exists(_nearestEnemy)) {
+if (instance_exists(_nearestEnemy) && _nearestEnemy.hp > 0) {
 	var _xDistance = abs(_nearestEnemy.x - x);
 	var _yDistance = abs(_nearestEnemy.y - y);
 	
