@@ -1,13 +1,29 @@
 function Action () constructor {
 	// Properties
 	name = "";
+	sequence = -1;
+	
+	appliesToUser = false;
+	appliesToOpponent = true;
 	
 	// Variables
-	done = false; // Placeholder, to be replaced with the sequence element it creates
+	sequenceElement = -1;
 	
 	/// @func	Initiate
-	Initiate = function () {
-		done = true;
+	Initiate = function (user, opponent) {
+		var _x = 0;
+		var _y = 0;
+		
+		if (appliesToOpponent) {
+			_x = opponent.instance.x;
+			_y = opponent.instance.y;
+		}
+		else if (appliesToUser) {
+			_x = user.instance.x;
+			_y = user.instance.y;
+		}
+		
+		sequenceElement = layer_sequence_create(global.seqLayer, _x, _y, sequence);
 	}
 	
 	/// @func	Effect
@@ -18,6 +34,7 @@ function Action () constructor {
 
 function Punch () : Action () constructor {
 	name = "Punch";
+	sequence = seqActionPunch;
 	
 	Effect = function (user, opponent) {
 		opponent.hp -= 20;

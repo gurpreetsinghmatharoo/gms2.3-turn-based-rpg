@@ -17,9 +17,6 @@ if (choosing) {
 		
 		if (is_struct(_action)) {
 			selectedAction = _action;
-		
-			// Initiate
-			selectedAction.Initiate();
 		}
 	}
 	// Select opponent
@@ -35,6 +32,9 @@ if (choosing) {
 		
 		if (is_struct(_opponent)) {
 			selectedOpponent = _opponent;
+		
+			// Initiate
+			selectedAction.Initiate(_battlePlayer, selectedOpponent);
 			
 			// Not choosing anymore
 			choosing = false;
@@ -52,7 +52,10 @@ if (choosing) {
 // Executing
 else {
 	// Done
-	if (selectedAction.done) {
+	if (layer_sequence_is_finished(selectedAction.sequenceElement)) {
+		// Remove element
+		layer_sequence_destroy(selectedAction.sequenceElement);
+		
 		// Effect
 		selectedAction.Effect(_battlePlayer.instance, selectedOpponent.instance);
 		
