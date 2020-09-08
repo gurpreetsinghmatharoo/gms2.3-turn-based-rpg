@@ -1,6 +1,8 @@
 function BattlePlayer (_instance) constructor {
 	instance = _instance;
 	
+	isAI = false;
+	
 	/// @func	SelectAction
 	/// @desc	Get selected action
 	SelectAction = function () {
@@ -22,6 +24,8 @@ function BattlePlayer (_instance) constructor {
 }
 
 function BattlePlayerAI (_name, _instances, _boxInstance) : BattlePlayer (_name, _instances, _boxInstance) constructor {
+	isAI = true;
+	
 	SelectAction = function () {
 		if (irandom(100) < 3) {
 			var _len = array_length(instance.actions);
