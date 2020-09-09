@@ -23,7 +23,7 @@ function Action () constructor {
 			_y = user.boxInstance.y + opponent.boxInstance.sprite_height / 2;
 		}
 		
-		sequenceElement = layer_sequence_create(global.seqLayer, _x, _y, sequence);
+		sequenceElement = layer_sequence_create(global.seqLayer2, _x, _y, sequence);
 	}
 	
 	/// @func	Effect
@@ -37,7 +37,7 @@ function Punch () : Action () constructor {
 	sequence = seqActionPunch;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 10;
+		opponent.hp -= 8;
 	}
 }
 
