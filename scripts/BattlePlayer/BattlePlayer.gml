@@ -1,5 +1,6 @@
 function BattlePlayer (_instance) constructor {
 	instance = _instance;
+	boxInstance = noone;
 	
 	isAI = false;
 	

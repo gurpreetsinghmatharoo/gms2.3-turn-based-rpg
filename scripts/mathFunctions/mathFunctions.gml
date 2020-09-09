@@ -7,6 +7,7 @@ function to_room_coords (val) {
 	return val * CELLSIZE;
 }
 
+/// Not used right now
 function to_gui_coords (_struct) {
 	// Get data
 	var _camX = camera_get_view_x(view_camera[0]);
