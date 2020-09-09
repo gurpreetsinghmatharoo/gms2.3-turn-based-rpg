@@ -37,7 +37,7 @@ function Punch () : Action () constructor {
 	sequence = seqActionPunch;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 20;
+		opponent.hp -= 10;
 	}
 }
 

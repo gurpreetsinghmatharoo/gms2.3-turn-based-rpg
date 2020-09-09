@@ -56,9 +56,6 @@ else {
 		// Remove element
 		layer_sequence_destroy(selectedAction.sequenceElement);
 		
-		// Effect
-		selectedAction.Effect(_battlePlayer.instance, selectedOpponent.instance);
-		
 		// Next turn
 		activeTurn ++;
 		
