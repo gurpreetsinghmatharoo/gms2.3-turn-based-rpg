@@ -51,6 +51,8 @@ function Kick () : Action () constructor {
 
 function Heal () : Action () constructor {
 	name = "Heal";
+	sequence = seqActionHeal;
+	appliesToUser = true;
 	
 	Effect = function (user, opponent) {
 		user.hp += 25;

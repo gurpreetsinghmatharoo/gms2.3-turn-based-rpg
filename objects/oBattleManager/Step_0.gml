@@ -30,6 +30,12 @@ if (choosing) {
 		// Get opponent
 		var _opponent = _battlePlayer.SelectOpponent(listOfPlayers);
 		
+		// Applies to user?
+		if (selectedAction.appliesToUser) {
+			_opponent = _battlePlayer;
+		}
+		
+		// Found opponent
 		if (is_struct(_opponent)) {
 			selectedOpponent = _opponent;
 		
