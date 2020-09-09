@@ -28,7 +28,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"maxHP","path":"objects/oEntityParent/oEntityParent.yy",},"objectId":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"value":"40","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"maxHP","path":"objects/oEntityParent/oEntityParent.yy",},"objectId":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"name","path":"objects/oEntityParent/oEntityParent.yy",},"objectId":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"value":"\"Masked Goon\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {

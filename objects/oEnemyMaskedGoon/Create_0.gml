@@ -25,5 +25,6 @@ state = states.idle;
 // Actions
 actions = [
 	new Punch(),
-	new Slap()
+	new Slap(),
+	new Heal()
 ];
