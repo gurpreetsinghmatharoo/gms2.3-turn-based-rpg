@@ -28,7 +28,7 @@ function BattlePlayerAI (_name, _instances, _boxInstance) : BattlePlayer (_name,
 	isAI = true;
 	
 	SelectAction = function () {
-		if (irandom(100) < 3) {
+		if (random(100) < 2.3) {
 			var _len = array_length(instance.actions);
 			var _index = irandom(_len - 1);
 			
@@ -39,7 +39,7 @@ function BattlePlayerAI (_name, _instances, _boxInstance) : BattlePlayer (_name,
 	}
 	
 	SelectOpponent = function (_list) {
-		if (irandom(100) < 3) {
+		if (random(100) < 2.3) {
 			return _list[| 0];
 		}
 		
