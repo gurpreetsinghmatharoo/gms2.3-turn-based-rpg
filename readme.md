@@ -5,3 +5,5 @@ Project Guide: https://docs.google.com/document/d/138GPv82bUDVe6s4yHP3zdsJ-E1cF4
 ![hibob.gif](https://s8.gifyu.com/images/hibob.gif)
 
 ![turnbasedbattlescene89c9e0c182a27a5c.gif](https://s8.gifyu.com/images/turnbasedbattlescene89c9e0c182a27a5c.gif)
+
+[![battleactionsequences.gif](https://s8.gifyu.com/images/battleactionsequences.gif)](https://gifyu.com/image/gPb3)
