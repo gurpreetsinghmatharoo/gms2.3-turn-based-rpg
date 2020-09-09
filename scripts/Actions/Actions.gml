@@ -37,7 +37,7 @@ function Punch () : Action () constructor {
 	sequence = seqActionPunch;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 8;
+		opponent.hp -= 6;
 	}
 }
 
@@ -46,7 +46,7 @@ function Kick () : Action () constructor {
 	sequence = seqActionKick;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 35;
+		opponent.hp -= 8;
 	}
 }
 
@@ -56,7 +56,7 @@ function Heal () : Action () constructor {
 	appliesToUser = true;
 	
 	Effect = function (user, opponent) {
-		user.hp += 25;
+		user.hp += 20;
 	}
 }
 
@@ -65,6 +65,6 @@ function Slap () : Action () constructor {
 	sequence = seqActionSlap;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 8;
+		opponent.hp -= 10;
 	}
 }
