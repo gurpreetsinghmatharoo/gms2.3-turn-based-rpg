@@ -11,19 +11,22 @@ function Action () constructor {
 	
 	/// @func	Initiate
 	Initiate = function (user, opponent) {
-		var _x = 0;
-		var _y = 0;
+		var _pos = { x : 0, y : 0 };
 		
 		if (appliesToOpponent) {
-			_x = opponent.instance.x;
-			_y = opponent.instance.y;
+			_pos = to_gui_coords({
+				x : opponent.instance.x,
+				y : opponent.instance.y
+			});
 		}
 		else if (appliesToUser) {
-			_x = user.instance.x;
-			_y = user.instance.y;
+			_pos = to_gui_coords({
+				x : user.instance.x,
+				y : user.instance.y
+			});
 		}
 		
-		sequenceElement = layer_sequence_create(global.seqLayer, _x, _y, sequence);
+		sequenceElement = layer_sequence_create(global.seqLayer, _pos.x, _pos.y, sequence);
 	}
 	
 	/// @func	Effect
