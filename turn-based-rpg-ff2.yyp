@@ -52,6 +52,7 @@
     {"id":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"order":0,},
     {"id":{"name":"entityFunctions","path":"scripts/entityFunctions/entityFunctions.yy",},"order":1,},
     {"id":{"name":"sPlayer_Down_Walk","path":"sprites/sPlayer_Down_Walk/sPlayer_Down_Walk.yy",},"order":0,},
+    {"id":{"name":"seqActionSlap","path":"sequences/seqActionSlap/seqActionSlap.yy",},"order":3,},
     {"id":{"name":"sJessica_Left_Idle","path":"sprites/sJessica_Left_Idle/sJessica_Left_Idle.yy",},"order":1,},
     {"id":{"name":"sPauseBack","path":"sprites/sPauseBack/sPauseBack.yy",},"order":8,},
     {"id":{"name":"battleFunctions","path":"scripts/battleFunctions/battleFunctions.yy",},"order":6,},
