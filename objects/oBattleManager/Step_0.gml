@@ -6,6 +6,7 @@ if (over) {
 		layer_sequence_destroy(outroSeq);
 		
 		instance_destroy();
+		battle_appear();
 	}
 	
 	exit;
@@ -20,6 +21,8 @@ else {
 
 // Vars
 var _battlePlayer = listOfPlayers[| activeTurn];
+
+if (keyboard_check(vk_space)) _battlePlayer.instance.hp --;
 
 // Choosing
 if (choosing) {
