@@ -1,6 +1,12 @@
 /// @description 
 if (global.paused) exit;
 
+// Die
+if (!instance_exists(oBattleManager) && hp <= 0) {
+	room_restart();
+	exit;
+}
+
 #region NPC Interaction
 // Coordinates to check
 var _len = CELLSIZE;

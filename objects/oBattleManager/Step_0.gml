@@ -6,6 +6,7 @@ if (over) {
 		layer_sequence_destroy(outroSeq);
 		
 		instance_destroy();
+		battle_appear();
 	}
 	
 	exit;
