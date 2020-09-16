@@ -23,6 +23,9 @@ selectedOpponent = -1;
 choosing = true;
 over = false;
 
+// XP
+xpAdd = 0;
+
 // Box IDs
 global.enemyBoxID = 1;
 global.actionBoxID = 0;
@@ -50,7 +53,6 @@ InitBattle = function (_playerInstance, _enemyInstancesArray) {
 /// @func	CheckOver
 CheckOver = function () {
 	var _size = ds_list_size(listOfPlayers);
-	
 	var _alivePlayers = 0;
 	
 	for (var i = 0; i < _size; i ++) {
@@ -72,7 +74,12 @@ CheckOver = function () {
 		
 		// Is alive
 		if (_player.instance.hp > 0) {
-			oBattleMessageBox.text = "You got XX XP!";
+			// Give XP
+			var _xpAdd = round(xpAdd);
+			_player.instance.xp += _xpAdd;
+			
+			// Show message
+			oBattleMessageBox.text = "You got " + string(_xpAdd) + " XP!";
 		}
 		// Is dead
 		else {
