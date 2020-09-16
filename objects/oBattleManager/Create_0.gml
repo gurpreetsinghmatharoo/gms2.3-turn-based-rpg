@@ -65,6 +65,18 @@ CheckOver = function () {
 	if (_alivePlayers <= 1) {
 		over = true;
 		
-		outroSeq = layer_sequence_create(global.seqLayer2, 0, 0, seqBattleExit);
+		alarm[0] = 150;
+		
+		// Get player
+		var _player = listOfPlayers[| 0];
+		
+		// Is alive
+		if (_player.instance.hp > 0) {
+			oBattleMessageBox.text = "You got XX XP!";
+		}
+		// Is dead
+		else {
+			oBattleMessageBox.text = "You died.";
+		}
 	}
 }
