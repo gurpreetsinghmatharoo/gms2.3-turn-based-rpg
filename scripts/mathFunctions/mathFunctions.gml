@@ -12,5 +12,7 @@ function get_4_directional (dir) {
 }
 
 function xp_for_next_level(level) {
-	return 1;
+	var _baseXP = 100;
+	
+	return (_baseXP * (level ^ 1.5));
 }
