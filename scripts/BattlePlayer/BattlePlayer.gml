@@ -8,6 +8,8 @@ function BattlePlayer (_instance) constructor {
 	/// @desc	Get selected action
 	SelectAction = function () {
 		with (oBattleActionBox) {
+			canSelect = true;
+			
 			if (isSelected && is_struct(action)) return action;
 		}
 		
@@ -17,6 +19,8 @@ function BattlePlayer (_instance) constructor {
 	/// @func	SelectOpponent
 	SelectOpponent = function () {
 		with (oBattleEnemyBox) {
+			canSelect = true;
+			
 			if (isSelected && is_struct(battlePlayer)) return battlePlayer;
 		}
 		

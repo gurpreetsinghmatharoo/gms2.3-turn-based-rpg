@@ -1,4 +1,6 @@
 /// @description 
+event_inherited();
+
 DrawImage(battlePlayer.instance.states.idle.left);
 
 DrawBar(battlePlayer.instance.GetHP(), battlePlayer.instance.GetMaxHP(),
