@@ -13,7 +13,11 @@
     "resourceType": "KeyframeStore<MessageEventKeyframe>",
   },
   "moments": {
-    "Keyframes": [],
+    "Keyframes": [
+      {"id":"02aecb0d-9a40-49c0-b78f-f1996fca3c7c","Key":66.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+              "battle_disappear",
+            ],"resourceVersion":"1.0","resourceType":"MomentsEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MomentsEventKeyframe>",},
+    ],
     "resourceVersion": "1.0",
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
   },
@@ -92,8 +96,8 @@
   "backdropHeight": 720,
   "backdropXOffset": 0.0,
   "backdropYOffset": 0.0,
-  "xorigin": 0,
-  "yorigin": 0,
+  "xorigin": -640,
+  "yorigin": -359,
   "eventToFunction": {},
   "eventStubScript": null,
   "parent": {
