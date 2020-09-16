@@ -37,7 +37,7 @@ function Punch () : Action () constructor {
 	sequence = seqActionPunch;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 15;
+		opponent.Hurt(15, user);
 	}
 }
 
@@ -46,7 +46,7 @@ function Kick () : Action () constructor {
 	sequence = seqActionKick;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 20;
+		opponent.Hurt(20, user);
 	}
 }
 
@@ -66,6 +66,6 @@ function Slap () : Action () constructor {
 	sequence = seqActionSlap;
 	
 	Effect = function (user, opponent) {
-		opponent.hp -= 25;
+		opponent.Hurt(25, user);
 	}
 }
