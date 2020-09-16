@@ -98,3 +98,7 @@ Hurt = function (_attackPower, _attacker) {
 	
 	hp -= _hpReduce;
 }
+
+// XP vars
+nextLevelXP = xp_for_next_level(level);
+baseLevelXP = 0;
