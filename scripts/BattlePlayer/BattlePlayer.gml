@@ -28,7 +28,7 @@ function BattlePlayer (_instance) constructor {
 	}
 }
 
-function BattlePlayerAI (_name, _instances, _boxInstance) : BattlePlayer (_name, _instances, _boxInstance) constructor {
+function BattlePlayerAI (_instance) : BattlePlayer (_instance) constructor {
 	isAI = true;
 	
 	SelectAction = function () {

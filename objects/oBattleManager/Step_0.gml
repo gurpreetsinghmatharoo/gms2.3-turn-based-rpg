@@ -1,4 +1,23 @@
 /// @description 
+// Over
+if (over) {
+	// Outro transition element
+	if (layer_sequence_is_finished(outroSeq)) {
+		layer_sequence_destroy(outroSeq);
+		
+		instance_destroy();
+	}
+	
+	exit;
+}
+// Still playing
+else {
+	// Intro transition element
+	if (layer_sequence_is_finished(introSeq)) {
+		layer_sequence_destroy(introSeq);
+	}
+}
+
 // Vars
 var _battlePlayer = listOfPlayers[| activeTurn];
 
