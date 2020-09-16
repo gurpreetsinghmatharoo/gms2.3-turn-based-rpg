@@ -2,8 +2,15 @@
 // Pause the game
 global.paused = true;
 
-// Create sequence
+// Battle sequence
 battleSeq = layer_sequence_create(global.seqLayer, 0, 0, seqBattleScene);
+
+// Invisible
+layer_set_visible(global.seqLayer, false);
+
+// Transition sequences
+introSeq = layer_sequence_create(global.seqLayer2, 0, 0, seqBattleEnter);
+outroSeq = -1;
 
 // Battle data
 listOfPlayers = ds_list_create();
@@ -14,6 +21,7 @@ selectedAction = -1;
 selectedOpponent = -1;
 
 choosing = true;
+over = false;
 
 // Box IDs
 global.enemyBoxID = 1;
@@ -24,10 +32,6 @@ global.actionBoxID = 0;
 /// @arg	enemy_instances_array
 InitBattle = function (_playerInstance, _enemyInstancesArray) {
 	// Main player
-	// Note: Currently an object index is being specified as the box instance
-	// Ideally you'd want it to be an instance reference, but that's not easy
-	// right now due to the way Sequences only create instances in the next
-	// frame
 	var _battlePlayer = new BattlePlayer(_playerInstance);
 	ds_list_add(listOfPlayers, _battlePlayer);
 	
@@ -59,6 +63,8 @@ CheckOver = function () {
 	
 	// Over
 	if (_alivePlayers <= 1) {
-		instance_destroy();
+		over = true;
+		
+		outroSeq = layer_sequence_create(global.seqLayer2, 0, 0, seqBattleExit);
 	}
 }

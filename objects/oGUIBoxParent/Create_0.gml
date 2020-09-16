@@ -1,5 +1,7 @@
 /// @description 
 isSelected = false;
+isHovered = false;
+canSelect = false;
 
 /// @func	DrawImage
 DrawImage = function (image) {

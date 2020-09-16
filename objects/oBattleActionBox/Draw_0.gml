@@ -1,6 +1,9 @@
 /// @description 
 if (!is_struct(action)) exit;
 
+// Parent event
+event_inherited();
+
 // Draw rectangle
 draw_rectangle(x, y, x + sprite_width, y + sprite_height, 1);
 
