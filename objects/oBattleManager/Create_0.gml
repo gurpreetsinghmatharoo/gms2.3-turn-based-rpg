@@ -5,6 +5,9 @@ global.paused = true;
 // Create sequence
 battleSeq = layer_sequence_create(global.seqLayer, 0, 0, seqBattleScene);
 
+// Visibility
+appear = false;
+
 // Battle data
 listOfPlayers = ds_list_create();
 

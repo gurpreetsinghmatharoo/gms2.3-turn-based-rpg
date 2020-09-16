@@ -6,3 +6,4 @@ function battle_effect () {
 		selectedAction.Effect(_battlePlayer.instance, selectedOpponent.instance);
 	}
 }
+
