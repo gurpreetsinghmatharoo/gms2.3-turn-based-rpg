@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"rmTemplate","path":"rooms/rmTemplate/rmTemplate.yy",},"order":1,},
     {"id":{"name":"seqPause","path":"sequences/seqPause/seqPause.yy",},"order":2,},
     {"id":{"name":"sMaskedGoon_Up_Walk","path":"sprites/sMaskedGoon_Up_Walk/sMaskedGoon_Up_Walk.yy",},"order":3,},
     {"id":{"name":"sMaskedGoon_Right_Walk","path":"sprites/sMaskedGoon_Right_Walk/sMaskedGoon_Right_Walk.yy",},"order":2,},
@@ -115,7 +116,7 @@
     {"id":{"name":"sTilesetCollision","path":"sprites/sTilesetCollision/sTilesetCollision.yy",},"order":1,},
     {"id":{"name":"sTree1","path":"sprites/sTree1/sTree1.yy",},"order":1,},
     {"id":{"name":"sJessica_Right_Walk","path":"sprites/sJessica_Right_Walk/sJessica_Right_Walk.yy",},"order":2,},
-    {"id":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},"order":1,},
+    {"id":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},"order":2,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -142,6 +143,7 @@
   "RoomOrder": [
     {"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},
     {"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},
+    {"name":"rmTemplate","path":"rooms/rmTemplate/rmTemplate.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Rooms.yy","order":1,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
