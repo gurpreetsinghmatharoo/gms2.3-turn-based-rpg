@@ -10,5 +10,13 @@ if (_player.instance.xp < _xpFinal) {
 else {
 	_player.instance.xp = round(_player.instance.xp);
 	
-	alarm[0] = 50;
+	if (levelUp) {
+		var _text = level_up_stats(_player.instance);
+		oBattleMessageBox.text = _text;
+		
+		alarm[0] = 180;
+	}
+	else {
+		alarm[0] = 50;
+	}
 }

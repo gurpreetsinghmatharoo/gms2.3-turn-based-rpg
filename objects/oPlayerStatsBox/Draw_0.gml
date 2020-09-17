@@ -24,10 +24,8 @@ if (instance_exists(oPlayer)) {
 	// Right-side (values)
 	_strRight += string(oPlayer.GetHP()) + " / " + 
 		string(oPlayer.GetMaxHP()) + "\n";
-	_strRight += string(oPlayer.GetAttack()) + " / " + 
-		string(oPlayer.GetMaxAttack()) + "\n";
-	_strRight += string(oPlayer.GetDefense()) + " / " + 
-		string(oPlayer.GetMaxDefense()) + "\n";
+	_strRight += string(oPlayer.GetAttack()) + "\n";
+	_strRight += string(oPlayer.GetDefense()) + "\n";
 	
 	_strRight += string(oPlayer.level) + "\n";
 	_strRight += string(oPlayer.xp) + "\n";

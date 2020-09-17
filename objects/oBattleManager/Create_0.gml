@@ -25,6 +25,7 @@ over = false;
 
 // XP
 xpFinal = 0;
+levelUp = false;
 
 // Box IDs
 global.enemyBoxID = 1;
@@ -76,6 +77,11 @@ CheckOver = function () {
 		if (_player.instance.hp > 0) {
 			// XP alarm
 			alarm[1] = 1;
+			
+			// Check if leveling up
+			if (xpFinal >= xp_for_next_level(_player.instance.level)) {
+				levelUp = true;
+			}
 			
 			// Show message
 			oBattleMessageBox.text = "You got " + string(round(xpFinal - _player.instance.xp)) + " XP!";
