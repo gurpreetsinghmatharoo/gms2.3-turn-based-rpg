@@ -59,8 +59,6 @@ SetSprite = function (state) {
 
 // Set stats
 hp = maxHP;
-attack = maxAttack;
-defense = maxDefense;
 
 // Stat getters
 // HP
@@ -77,15 +75,20 @@ GetAttack = function () {
 	return attack;
 }
 
-GetMaxAttack = function () {
-	return maxAttack;
-}
-
 // Defense
 GetDefense = function () {
 	return defense;
 }
 
-GetMaxDefense = function () {
-	return maxDefense;
+/// Getting hurt
+Hurt = function (_attackPower, _attacker) {
+	var _attackPowerMul = _attacker.GetAttack() / 100;
+	var _defenseMul = GetDefense() / 100;
+	var _hpReduce = (_attackPower * _attackPowerMul) / _defenseMul;
+	
+	hp -= _hpReduce;
 }
+
+// XP vars
+nextLevelXP = xp_for_next_level(level);
+baseLevelXP = 0;
