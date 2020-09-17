@@ -4,6 +4,11 @@ function battle_effect () {
 		
 		// Effect
 		selectedAction.Effect(_battlePlayer.instance, selectedOpponent.instance);
+		
+		// Add XP for main player
+		if (activeTurn == 0) {
+			xpFinal += (selectedOpponent.instance.level * 10) * random_range(0.9, 1.3);
+		}
 	}
 }
 

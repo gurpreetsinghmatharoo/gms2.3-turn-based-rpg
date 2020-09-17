@@ -22,12 +22,15 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"maxHP","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"maxAttack","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"maxDefense","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"attack","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"100","rangeEnabled":true,"rangeMin":1.0,"rangeMax":500.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"defense","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":2,"value":"\"Player\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"name","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"level","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"xp","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

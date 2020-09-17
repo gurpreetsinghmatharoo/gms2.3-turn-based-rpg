@@ -23,6 +23,10 @@ selectedOpponent = -1;
 choosing = true;
 over = false;
 
+// XP
+xpFinal = 0;
+levelUp = false;
+
 // Box IDs
 global.enemyBoxID = 1;
 global.actionBoxID = 0;
@@ -34,6 +38,8 @@ InitBattle = function (_playerInstance, _enemyInstancesArray) {
 	// Main player
 	var _battlePlayer = new BattlePlayer(_playerInstance);
 	ds_list_add(listOfPlayers, _battlePlayer);
+	
+	xpFinal = _playerInstance.xp;
 	
 	// Enemy players
 	var _len = array_length(_enemyInstancesArray);
@@ -50,7 +56,6 @@ InitBattle = function (_playerInstance, _enemyInstancesArray) {
 /// @func	CheckOver
 CheckOver = function () {
 	var _size = ds_list_size(listOfPlayers);
-	
 	var _alivePlayers = 0;
 	
 	for (var i = 0; i < _size; i ++) {
@@ -65,6 +70,26 @@ CheckOver = function () {
 	if (_alivePlayers <= 1) {
 		over = true;
 		
-		outroSeq = layer_sequence_create(global.seqLayer2, 0, 0, seqBattleExit);
+		// Get player
+		var _player = listOfPlayers[| 0];
+		
+		// Is alive
+		if (_player.instance.hp > 0) {
+			// XP alarm
+			alarm[1] = 1;
+			
+			// Check if leveling up
+			if (xpFinal >= xp_for_next_level(_player.instance.level)) {
+				levelUp = true;
+			}
+			
+			// Show message
+			oBattleMessageBox.text = "You got " + string(round(xpFinal - _player.instance.xp)) + " XP!";
+		}
+		// Is dead
+		else {
+			oBattleMessageBox.text = "You died.";
+			alarm[0] = 100;
+		}
 	}
 }
