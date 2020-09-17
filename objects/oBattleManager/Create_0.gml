@@ -24,7 +24,7 @@ choosing = true;
 over = false;
 
 // XP
-xpAdd = 0;
+xpFinal = 0;
 
 // Box IDs
 global.enemyBoxID = 1;
@@ -37,6 +37,8 @@ InitBattle = function (_playerInstance, _enemyInstancesArray) {
 	// Main player
 	var _battlePlayer = new BattlePlayer(_playerInstance);
 	ds_list_add(listOfPlayers, _battlePlayer);
+	
+	xpFinal = _playerInstance.xp;
 	
 	// Enemy players
 	var _len = array_length(_enemyInstancesArray);
@@ -67,23 +69,21 @@ CheckOver = function () {
 	if (_alivePlayers <= 1) {
 		over = true;
 		
-		alarm[0] = 150;
-		
 		// Get player
 		var _player = listOfPlayers[| 0];
 		
 		// Is alive
 		if (_player.instance.hp > 0) {
-			// Give XP
-			var _xpAdd = round(xpAdd);
-			_player.instance.xp += _xpAdd;
+			// XP alarm
+			alarm[1] = 1;
 			
 			// Show message
-			oBattleMessageBox.text = "You got " + string(_xpAdd) + " XP!";
+			oBattleMessageBox.text = "You got " + string(round(xpFinal - _player.instance.xp)) + " XP!";
 		}
 		// Is dead
 		else {
 			oBattleMessageBox.text = "You died.";
+			alarm[0] = 100;
 		}
 	}
 }

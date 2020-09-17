@@ -7,8 +7,8 @@ function battle_effect () {
 		
 		// Add XP for main player
 		if (activeTurn == 0) {
-			xpAdd += (selectedOpponent.instance.level * 5) * random_range(0.9, 1.1);
-			log("xpAdd set to ", xpAdd);
+			xpFinal += (selectedOpponent.instance.level * 10) * random_range(0.9, 1.3);
+			log("xpFinal set to ", xpFinal);
 		}
 	}
 }
