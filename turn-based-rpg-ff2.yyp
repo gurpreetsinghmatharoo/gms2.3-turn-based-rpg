@@ -66,7 +66,6 @@
     {"id":{"name":"sPlayer_Right_Walk","path":"sprites/sPlayer_Right_Walk/sPlayer_Right_Walk.yy",},"order":2,},
     {"id":{"name":"sBob_Up_Idle","path":"sprites/sBob_Up_Idle/sBob_Up_Idle.yy",},"order":3,},
     {"id":{"name":"sSlap","path":"sprites/sSlap/sSlap.yy",},"order":5,},
-    {"id":{"name":"oTriggerParent","path":"objects/oTriggerParent/oTriggerParent.yy",},"order":0,},
     {"id":{"name":"sPlayer_Left_Walk","path":"sprites/sPlayer_Left_Walk/sPlayer_Left_Walk.yy",},"order":1,},
     {"id":{"name":"dialogueMessages","path":"scripts/dialogueMessages/dialogueMessages.yy",},"order":2,},
     {"id":{"name":"seqActionKick","path":"sequences/seqActionKick/seqActionKick.yy",},"order":2,},
