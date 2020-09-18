@@ -1,6 +1,4 @@
 /// @description 
-if (keyboard_check(vk_space)) xp ++;
-
 event_inherited();
 
 if (global.paused) exit;

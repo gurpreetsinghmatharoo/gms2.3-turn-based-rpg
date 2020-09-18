@@ -22,8 +22,6 @@ else {
 // Vars
 var _battlePlayer = listOfPlayers[| activeTurn];
 
-if (keyboard_check(vk_space)) _battlePlayer.instance.hp --;
-
 // Choosing
 if (choosing) {
 	// Select action
