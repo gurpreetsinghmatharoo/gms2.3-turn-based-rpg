@@ -34,7 +34,3 @@ for (var _x = 0; _x < _width; _x ++) {
 
 // Managers
 global.textboxManager = instance_create_layer(x, y, layer, oTextboxManager);
-
-// Room Changing
-global.targetRoom = -1;
-global.targetSpawner = noone;
