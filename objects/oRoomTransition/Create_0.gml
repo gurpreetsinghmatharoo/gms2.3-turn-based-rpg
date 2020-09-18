@@ -5,3 +5,13 @@ targetSpawner = noone;
 // Sequence
 endSeq = layer_sequence_create(global.seqLayer, 0, 0, seqRoomEnd);
 startSeq = -1;
+
+// Player data
+playerData = {
+	hp : oPlayer.hp,
+	maxHP : oPlayer.maxHP,
+	attack : oPlayer.attack,
+	defense : oPlayer.defense,
+	level : oPlayer.level,
+	xp : oPlayer.xp
+}
