@@ -1,26 +1,31 @@
-function get_player_data () {
-	var _playerData = {
-		hp : oPlayer.hp,
-		maxHP : oPlayer.maxHP,
-		attack : oPlayer.attack,
-		defense : oPlayer.defense,
-		level : oPlayer.level,
-		xp : oPlayer.xp,
+/// @func	get_entity_data
+/// @arg	entity
+function get_entity_data (_entity) {
+	var _entityData = {
+		hp : _entity.hp,
+		maxHP : _entity.maxHP,
+		attack : _entity.attack,
+		defense : _entity.defense,
+		level : _entity.level,
+		xp : _entity.xp,
 	
-		nextLevelXP : oPlayer.nextLevelXP,
-		baseLevelXP : oPlayer.baseLevelXP
+		nextLevelXP : _entity.nextLevelXP,
+		baseLevelXP : _entity.baseLevelXP
 	}
 	
-	return _playerData;
+	return _entityData;
 }
 
-function set_player_data(_playerData) {
-	oPlayer.hp = _playerData.hp;
-	oPlayer.maxHP = _playerData.maxHP;
-	oPlayer.attack = _playerData.attack;
-	oPlayer.defense = _playerData.defense;
-	oPlayer.level = _playerData.level;
-	oPlayer.xp = _playerData.xp;
-	oPlayer.nextLevelXP = _playerData.nextLevelXP;
-	oPlayer.baseLevelXP = _playerData.baseLevelXP;
+/// @func	set_entity_data
+/// @arg	entityData
+/// @arg	entity
+function set_entity_data(_entityData, _entity) {
+	_entity.hp = _entityData.hp;
+	_entity.maxHP = _entityData.maxHP;
+	_entity.attack = _entityData.attack;
+	_entity.defense = _entityData.defense;
+	_entity.level = _entityData.level;
+	_entity.xp = _entityData.xp;
+	_entity.nextLevelXP = _entityData.nextLevelXP;
+	_entity.baseLevelXP = _entityData.baseLevelXP;
 }
