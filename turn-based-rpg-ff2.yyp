@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"rmTemplate","path":"rooms/rmTemplate/rmTemplate.yy",},"order":1,},
+    {"id":{"name":"sTilesetCaveCollision","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},"order":2,},
     {"id":{"name":"seqPause","path":"sequences/seqPause/seqPause.yy",},"order":2,},
     {"id":{"name":"sMaskedGoon_Up_Walk","path":"sprites/sMaskedGoon_Up_Walk/sMaskedGoon_Up_Walk.yy",},"order":3,},
     {"id":{"name":"sMaskedGoon_Right_Walk","path":"sprites/sMaskedGoon_Right_Walk/sMaskedGoon_Right_Walk.yy",},"order":2,},
@@ -34,6 +35,7 @@
     {"id":{"name":"textFunctions","path":"scripts/textFunctions/textFunctions.yy",},"order":5,},
     {"id":{"name":"oBattleGenericBox","path":"objects/oBattleGenericBox/oBattleGenericBox.yy",},"order":0,},
     {"id":{"name":"sStatsWindow","path":"sprites/sStatsWindow/sStatsWindow.yy",},"order":7,},
+    {"id":{"name":"sTilesetCaveGround","path":"sprites/sTilesetCaveGround/sTilesetCaveGround.yy",},"order":3,},
     {"id":{"name":"sSpeechBubbleIcon","path":"sprites/sSpeechBubbleIcon/sSpeechBubbleIcon.yy",},"order":6,},
     {"id":{"name":"oGlobalManager","path":"objects/oGlobalManager/oGlobalManager.yy",},"order":0,},
     {"id":{"name":"oEntityParent","path":"objects/oEntityParent/oEntityParent.yy",},"order":0,},
@@ -61,6 +63,7 @@
     {"id":{"name":"sPlayer_Down_Walk","path":"sprites/sPlayer_Down_Walk/sPlayer_Down_Walk.yy",},"order":0,},
     {"id":{"name":"seqActionSlap","path":"sequences/seqActionSlap/seqActionSlap.yy",},"order":3,},
     {"id":{"name":"sJessica_Left_Idle","path":"sprites/sJessica_Left_Idle/sJessica_Left_Idle.yy",},"order":1,},
+    {"id":{"name":"tCaveGround","path":"tilesets/tCaveGround/tCaveGround.yy",},"order":3,},
     {"id":{"name":"sPauseBack","path":"sprites/sPauseBack/sPauseBack.yy",},"order":8,},
     {"id":{"name":"battleFunctions","path":"scripts/battleFunctions/battleFunctions.yy",},"order":6,},
     {"id":{"name":"sMaskedGoon_Left_Idle","path":"sprites/sMaskedGoon_Left_Idle/sMaskedGoon_Left_Idle.yy",},"order":0,},
@@ -113,6 +116,7 @@
     {"id":{"name":"sBlack","path":"sprites/sBlack/sBlack.yy",},"order":9,},
     {"id":{"name":"oBattleActionBox","path":"objects/oBattleActionBox/oBattleActionBox.yy",},"order":3,},
     {"id":{"name":"scrResolution","path":"scripts/scrResolution/scrResolution.yy",},"order":0,},
+    {"id":{"name":"tCaveCollision","path":"tilesets/tCaveCollision/tCaveCollision.yy",},"order":2,},
     {"id":{"name":"ftBattle","path":"fonts/ftBattle/ftBattle.yy",},"order":3,},
     {"id":{"name":"sHeal1","path":"sprites/sHeal1/sHeal1.yy",},"order":2,},
     {"id":{"name":"sPlayer_Up_Walk","path":"sprites/sPlayer_Up_Walk/sPlayer_Up_Walk.yy",},"order":3,},
