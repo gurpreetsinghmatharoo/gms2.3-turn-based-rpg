@@ -49,6 +49,7 @@
     {"id":{"name":"sRoomChanger","path":"sprites/sRoomChanger/sRoomChanger.yy",},"order":0,},
     {"id":{"name":"ftStats","path":"fonts/ftStats/ftStats.yy",},"order":2,},
     {"id":{"name":"oRoomSpawner","path":"objects/oRoomSpawner/oRoomSpawner.yy",},"order":2,},
+    {"id":{"name":"saveFunctions","path":"scripts/saveFunctions/saveFunctions.yy",},"order":7,},
     {"id":{"name":"oNameBox","path":"objects/oNameBox/oNameBox.yy",},"order":2,},
     {"id":{"name":"seqBattleExit","path":"sequences/seqBattleExit/seqBattleExit.yy",},"order":1,},
     {"id":{"name":"scrGameData","path":"scripts/scrGameData/scrGameData.yy",},"order":1,},

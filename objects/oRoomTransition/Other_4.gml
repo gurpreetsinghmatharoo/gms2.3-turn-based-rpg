@@ -8,10 +8,5 @@ if (instance_exists(targetSpawner) && instance_exists(oPlayer)) {
 	oPlayer.y = targetSpawner.y + targetSpawner.sprite_height / 2;
 	
 	// Restore player data
-	oPlayer.hp = playerData.hp;
-	oPlayer.maxHP = playerData.maxHP;
-	oPlayer.attack = playerData.attack;
-	oPlayer.defense = playerData.defense;
-	oPlayer.level = playerData.level;
-	oPlayer.xp = playerData.xp;
+	set_player_data(playerData);
 }
