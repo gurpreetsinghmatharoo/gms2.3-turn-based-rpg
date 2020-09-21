@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 16,
-  "bbox_right": 63,
+  "bbox_left": 0,
+  "bbox_right": 159,
   "bbox_top": 0,
-  "bbox_bottom": 47,
+  "bbox_bottom": 159,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"052b2fff-dcdd-40f0-8f2a-9a610a8e06b9","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"052b2fff-dcdd-40f0-8f2a-9a610a8e06b9","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},"LayerId":{"name":"8f478cb9-21de-4ec5-9f6b-83253fd5a382","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTilesetCaveCollision","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},"resourceVersion":"1.0","name":"052b2fff-dcdd-40f0-8f2a-9a610a8e06b9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1bb08428-9748-4c34-8b60-fc80740ddc8d","path":"sprites/sTilesetGround/sTilesetGround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1bb08428-9748-4c34-8b60-fc80740ddc8d","path":"sprites/sTilesetGround/sTilesetGround.yy",},"LayerId":{"name":"d25a4733-ba33-4e0b-94e8-ccc966f4a508","path":"sprites/sTilesetGround/sTilesetGround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTilesetGround","path":"sprites/sTilesetGround/sTilesetGround.yy",},"resourceVersion":"1.0","name":"1bb08428-9748-4c34-8b60-fc80740ddc8d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTilesetCaveCollision","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},
+    "spriteId": {"name":"sTilesetGround","path":"sprites/sTilesetGround/sTilesetGround.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a9c594e4-66d4-4073-a7a5-f7e281294be3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"052b2fff-dcdd-40f0-8f2a-9a610a8e06b9","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ff18747d-8451-4b6e-8416-746ad8a55b72","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1bb08428-9748-4c34-8b60-fc80740ddc8d","path":"sprites/sTilesetGround/sTilesetGround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTilesetCaveCollision","path":"sprites/sTilesetCaveCollision/sTilesetCaveCollision.yy",},
+    "parent": {"name":"sTilesetGround","path":"sprites/sTilesetGround/sTilesetGround.yy",},
     "resourceVersion": "1.3",
-    "name": "sTilesetCaveCollision",
+    "name": "sTilesetGround",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8f478cb9-21de-4ec5-9f6b-83253fd5a382","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d25a4733-ba33-4e0b-94e8-ccc966f4a508","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Tilesets/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sTilesetCaveCollision",
+  "name": "sTilesetGround",
   "tags": [],
   "resourceType": "GMSprite",
 }
