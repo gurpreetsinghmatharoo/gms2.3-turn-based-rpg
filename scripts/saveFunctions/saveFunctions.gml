@@ -10,7 +10,9 @@ function get_entity_data (_entity) {
 		xp : _entity.xp,
 	
 		nextLevelXP : _entity.nextLevelXP,
-		baseLevelXP : _entity.baseLevelXP
+		baseLevelXP : _entity.baseLevelXP,
+		
+		moveDirection : _entity.moveDirection
 	}
 	
 	return _entityData;
@@ -28,4 +30,5 @@ function set_entity_data(_entityData, _entity) {
 	_entity.xp = _entityData.xp;
 	_entity.nextLevelXP = _entityData.nextLevelXP;
 	_entity.baseLevelXP = _entityData.baseLevelXP;
+	_entity.moveDirection = _entityData.moveDirection;
 }
