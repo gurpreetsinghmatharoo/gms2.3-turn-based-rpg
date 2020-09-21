@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 255,
+  "bbox_right": 159,
   "bbox_top": 0,
-  "bbox_bottom": 255,
+  "bbox_bottom": 159,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5cd7dd5b-7879-4b60-9c87-6d67d50ead27","path":"sprites/sTilesetMain/sTilesetMain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5cd7dd5b-7879-4b60-9c87-6d67d50ead27","path":"sprites/sTilesetMain/sTilesetMain.yy",},"LayerId":{"name":"c67a5eab-2d42-4fd0-bb78-5d9e4e2e73a1","path":"sprites/sTilesetMain/sTilesetMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTilesetMain","path":"sprites/sTilesetMain/sTilesetMain.yy",},"resourceVersion":"1.0","name":"5cd7dd5b-7879-4b60-9c87-6d67d50ead27","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d7907e03-ca5d-4855-9e0f-079524224470","path":"sprites/sTilesetGround/sTilesetGround.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d7907e03-ca5d-4855-9e0f-079524224470","path":"sprites/sTilesetGround/sTilesetGround.yy",},"LayerId":{"name":"7aaf983e-a060-478a-a84b-e11f5c3ecccf","path":"sprites/sTilesetGround/sTilesetGround.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTilesetGround","path":"sprites/sTilesetGround/sTilesetGround.yy",},"resourceVersion":"1.0","name":"d7907e03-ca5d-4855-9e0f-079524224470","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTilesetMain","path":"sprites/sTilesetMain/sTilesetMain.yy",},
+    "spriteId": {"name":"sTilesetGround","path":"sprites/sTilesetGround/sTilesetGround.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"11a0e526-df10-4a57-8e51-d8e6eb1defe5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5cd7dd5b-7879-4b60-9c87-6d67d50ead27","path":"sprites/sTilesetMain/sTilesetMain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0066b7d5-4033-4d3e-9aea-9f5a08eb08e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7907e03-ca5d-4855-9e0f-079524224470","path":"sprites/sTilesetGround/sTilesetGround.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTilesetMain","path":"sprites/sTilesetMain/sTilesetMain.yy",},
+    "parent": {"name":"sTilesetGround","path":"sprites/sTilesetGround/sTilesetGround.yy",},
     "resourceVersion": "1.3",
-    "name": "sTilesetMain",
+    "name": "sTilesetGround",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c67a5eab-2d42-4fd0-bb78-5d9e4e2e73a1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7aaf983e-a060-478a-a84b-e11f5c3ecccf","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Tilesets/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sTilesetMain",
+  "name": "sTilesetGround",
   "tags": [],
   "resourceType": "GMSprite",
 }
