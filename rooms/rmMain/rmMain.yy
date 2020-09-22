@@ -62,6 +62,8 @@
             {"propertyId":{"name":"targetSpawner","path":"objects/oRoomChanger/oRoomChanger.yy",},"objectId":{"name":"oRoomChanger","path":"objects/oRoomChanger/oRoomChanger.yy",},"value":"caveEntry1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oRoomChanger","path":"objects/oRoomChanger/oRoomChanger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":64.0,"resourceVersion":"1.0","name":"inst_16ABD89E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oRoomSpawner","path":"objects/oRoomSpawner/oRoomSpawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":80.0,"resourceVersion":"1.0","name":"caveExit1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oBandage","path":"objects/oBandage/oBandage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":984.0,"y":120.0,"resourceVersion":"1.0","name":"inst_5A8DAD42","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oPotion","path":"objects/oPotion/oPotion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":840.0,"y":104.0,"resourceVersion":"1.0","name":"inst_5FB873A0","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tCollision","path":"tilesets/tCollision/tCollision.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":64,"SerialiseHeight":64,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,22,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
@@ -229,6 +231,8 @@
     {"name":"inst_694138E2","path":"rooms/rmMain/rmMain.yy",},
     {"name":"inst_16ABD89E","path":"rooms/rmMain/rmMain.yy",},
     {"name":"caveExit1","path":"rooms/rmMain/rmMain.yy",},
+    {"name":"inst_5A8DAD42","path":"rooms/rmMain/rmMain.yy",},
+    {"name":"inst_5FB873A0","path":"rooms/rmMain/rmMain.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -50,3 +50,15 @@ if (instance_exists(_nearestEnemy) && _nearestEnemy.hp > 0) {
 	}
 }
 #endregion
+
+#region Item Interaction
+var _itemInst = instance_place(x, y, oItemParent);
+
+if (instance_exists(_itemInst)) {
+	var _added = inventory_add(inventory, _itemInst.itemID);
+	
+	if (_added) {
+		instance_destroy(_itemInst);
+	}
+}
+#endregion

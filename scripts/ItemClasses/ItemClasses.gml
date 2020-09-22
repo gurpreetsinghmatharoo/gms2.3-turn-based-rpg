@@ -17,8 +17,8 @@ function HealingItem (_name, _icon, _healPower) : Item (_name, _icon) constructo
 	}
 }
 
-function AttackIncrease (_name, _icon, _attackIncrease, _permanent) : Item (_name, _icon) constructor {
-	attackIncrease = _attackIncrease;
+function AttackIncrease (_name, _icon, _increase, _permanent) : Item (_name, _icon) constructor {
+	increase = _increase;
 	permanent = _permanent;
 	
 	Effect = function (player) {
@@ -26,8 +26,8 @@ function AttackIncrease (_name, _icon, _attackIncrease, _permanent) : Item (_nam
 	}
 }
 
-function DefenseIncrease (_name, _icon, _defenseIncrease, _permanent) : Item (_name, _icon) constructor {
-	attackIncrease = _attackIncrease;
+function DefenseIncrease (_name, _icon, _increase, _permanent) : Item (_name, _icon) constructor {
+	increase = _increase;
 	permanent = _permanent;
 	
 	Effect = function (player) {
