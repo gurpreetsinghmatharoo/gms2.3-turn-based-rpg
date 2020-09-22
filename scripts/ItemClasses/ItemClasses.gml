@@ -16,3 +16,21 @@ function Potion (_healPower) : Item () constructor {
 		}
 	}
 }
+
+function AttackIncrease (_attackIncrease, _permanent) : Item () constructor {
+	attackIncrease = _attackIncrease;
+	permanent = _permanent;
+	
+	Effect = function (player) {
+		
+	}
+}
+
+function DefenseIncrease (_defenseIncrease, _permanent) : Item () constructor {
+	attackIncrease = _attackIncrease;
+	permanent = _permanent;
+	
+	Effect = function (player) {
+		
+	}
+}
