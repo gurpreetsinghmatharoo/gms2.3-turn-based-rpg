@@ -57,7 +57,6 @@ function Heal () : Action () constructor {
 	
 	Effect = function (user, opponent) {
 		user.hp += 10;
-		if (user.hp > user.maxHP) user.hp = user.maxHP;
 	}
 }
 

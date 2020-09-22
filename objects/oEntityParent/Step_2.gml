@@ -7,3 +7,8 @@ if (xp >= nextLevelXP) {
 	baseLevelXP = nextLevelXP;
 	nextLevelXP = xp_for_next_level(level);
 }
+
+// Limit HP
+if (hp > maxHP) {
+	hp = maxHP;
+}
