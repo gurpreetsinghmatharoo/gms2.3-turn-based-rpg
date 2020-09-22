@@ -1,7 +1,7 @@
 // Enum of all items
 enum ITEM {
-	SMALL_POTION,
-	LARGE_POTION,
+	BANDAGE,
+	POTION,
 	
 	TEMP_ATTACK,
 	TEMP_DEFENSE,
@@ -11,11 +11,11 @@ enum ITEM {
 }
 
 // Array with item data
-global.items[ITEM.SMALL_POTION] = new Potion(20);
-global.items[ITEM.LARGE_POTION] = new Potion(50);
+global.items[ITEM.BANDAGE] = new HealingItem("Bandage", -1, 20);
+global.items[ITEM.POTION] = new HealingItem("Potion", -1, 50);
 
-global.items[ITEM.TEMP_ATTACK] = new AttackIncrease(15, false);
-global.items[ITEM.TEMP_DEFENSE] = new DefenseIncrease(15, false);
+global.items[ITEM.TEMP_ATTACK] = new AttackIncrease("Battle Attack+", -1, 15, false);
+global.items[ITEM.TEMP_DEFENSE] = new DefenseIncrease("Battle Defense+", -1, 15, false);
 
-global.items[ITEM.PERM_ATTACK] = new AttackIncrease(10, true);
-global.items[ITEM.PERM_DEFENSE] = new DefenseIncrease(10, true);
+global.items[ITEM.PERM_ATTACK] = new AttackIncrease("Forever Attack+", -1, 10, true);
+global.items[ITEM.PERM_DEFENSE] = new DefenseIncrease("Forever Defense+", -1, 10, true);

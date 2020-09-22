@@ -1,13 +1,13 @@
-function Item () constructor {
-	name = "";
-	icon = "";
+function Item (_name, _icon) constructor {
+	name = _name;
+	icon = _icon;
 	
 	/// @func	Effect
 	/// @arg	player
 	Effect = function (player) {};
 }
 
-function Potion (_healPower) : Item () constructor {
+function HealingItem (_name, _icon, _healPower) : Item (_name, _icon) constructor {
 	healPower = _healPower;
 	
 	Effect = function (player) {
@@ -17,7 +17,7 @@ function Potion (_healPower) : Item () constructor {
 	}
 }
 
-function AttackIncrease (_attackIncrease, _permanent) : Item () constructor {
+function AttackIncrease (_name, _icon, _attackIncrease, _permanent) : Item (_name, _icon) constructor {
 	attackIncrease = _attackIncrease;
 	permanent = _permanent;
 	
@@ -26,7 +26,7 @@ function AttackIncrease (_attackIncrease, _permanent) : Item () constructor {
 	}
 }
 
-function DefenseIncrease (_defenseIncrease, _permanent) : Item () constructor {
+function DefenseIncrease (_name, _icon, _defenseIncrease, _permanent) : Item (_name, _icon) constructor {
 	attackIncrease = _attackIncrease;
 	permanent = _permanent;
 	
