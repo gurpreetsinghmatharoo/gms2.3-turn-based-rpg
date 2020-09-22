@@ -92,3 +92,6 @@ Hurt = function (_attackPower, _attacker) {
 // XP vars
 nextLevelXP = xp_for_next_level(level);
 baseLevelXP = 0;
+
+// Inventory
+inventory = array_create(INVENTORY_MAX_SIZE, -1);
