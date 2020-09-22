@@ -11,11 +11,11 @@ enum ITEM {
 }
 
 // Array with item data
-global.items[ITEM.BANDAGE] = new HealingItem("Bandage", -1, 20);
-global.items[ITEM.POTION] = new HealingItem("Potion", -1, 50);
+global.items[ITEM.BANDAGE] = new HealingItem("Bandage", sBandage, 20);
+global.items[ITEM.POTION] = new HealingItem("Potion", sPotion, 50);
 
-global.items[ITEM.TEMP_ATTACK] = new AttackIncrease("Battle Attack+", -1, 15, false);
-global.items[ITEM.TEMP_DEFENSE] = new DefenseIncrease("Battle Defense+", -1, 15, false);
+global.items[ITEM.TEMP_ATTACK] = new AttackIncrease("Temp Attack+", sTempAttack, 15, false);
+global.items[ITEM.TEMP_DEFENSE] = new DefenseIncrease("Temp Defense+", sTempDefense, 15, false);
 
-global.items[ITEM.PERM_ATTACK] = new AttackIncrease("Forever Attack+", -1, 10, true);
-global.items[ITEM.PERM_DEFENSE] = new DefenseIncrease("Forever Defense+", -1, 10, true);
+global.items[ITEM.PERM_ATTACK] = new AttackIncrease("Perm Attack+", sPermAttack, 10, true);
+global.items[ITEM.PERM_DEFENSE] = new DefenseIncrease("Perm Defense+", sPermDefense, 10, true);
