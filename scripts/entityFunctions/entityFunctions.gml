@@ -13,7 +13,7 @@ function show_item_dialog (_itemID) {
 	var _itemData = global.items[_itemID];
 		
 	var _customSpeaker = {
-		name : _itemData.name,
+		name : "New Item",
 		image : _itemData.icon
 	}
 		

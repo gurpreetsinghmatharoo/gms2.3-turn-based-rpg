@@ -8,12 +8,12 @@ DrawImage = function (image) {
 	// Static data
 	// This is like a Create event for this function
 	static frame = 0;
-	static imageSpeed = sprite_get_speed(image);
-	static width = sprite_get_width(image);
-	static height = sprite_get_height(image);
+	var imageSpeed = sprite_get_speed(image);
+	var width = sprite_get_width(image);
+	var height = sprite_get_height(image);
 	
-	static scaleX = sprite_width / width;
-	static scaleY = sprite_height / height;
+	var scaleX = sprite_width / width;
+	var scaleY = sprite_height / height;
 	
 	// Draw
 	draw_sprite_ext(image, frame,

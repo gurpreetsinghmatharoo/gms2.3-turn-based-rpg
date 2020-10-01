@@ -53,7 +53,15 @@ NextMessage = function () {
 		
 		layer_sequence_destroy(seqElm);
 		
-		alarm[0] = 20;
+		// Disable textbox
+		textboxEnabled = false;
+		charAt = 0;
+		messageAt = 0;
+		
+		// Disable player's input
+		with (oPlayer) {
+			inputSpace = false;
+		}
 	}
 	// Continue
 	else {
