@@ -7,20 +7,19 @@ function state_set (_state) {
 	}
 }
 
-/// @func	show_item_dialog
-/// @arg	itemID
-function show_item_dialog (_itemID) {
-	var _itemData = global.items[_itemID];
-		
+/// @func	show_alert
+/// @arg	message
+/// @arg	image
+function show_alert (_message, _image) {
 	var _customSpeaker = {
-		name : "New Item",
-		image : _itemData.icon
+		name : "Alert",
+		image : _image
 	}
 		
 	var _messageData = [
 		{
 			speaker : _customSpeaker,
-			message : "You got a " + _itemData.name + "!"
+			message : _message,
 		}
 	]
 	

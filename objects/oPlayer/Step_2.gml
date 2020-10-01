@@ -59,7 +59,9 @@ if (instance_exists(_itemInst)) {
 	
 	if (_added) {
 		// Show dialogue box
-		show_item_dialog(_itemInst.itemID);
+		var _itemID = _itemInst.itemID;
+		var _itemData = global.items[_itemID];
+		show_alert("You got a " + _itemData.name + "!", _itemData.icon);
 		
 		// Destroy item
 		instance_destroy(_itemInst);
