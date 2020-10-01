@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a3ac1ccb-d6a4-4c08-b041-8cfca513dd6f","path":"sprites/sTempAttack/sTempAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a3ac1ccb-d6a4-4c08-b041-8cfca513dd6f","path":"sprites/sTempAttack/sTempAttack.yy",},"LayerId":{"name":"60a070f2-a0a4-4808-b65c-9f3299e66a68","path":"sprites/sTempAttack/sTempAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTempAttack","path":"sprites/sTempAttack/sTempAttack.yy",},"resourceVersion":"1.0","name":"a3ac1ccb-d6a4-4c08-b041-8cfca513dd6f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b0903745-82e9-4a0d-a725-2adf0e2e4b8d","path":"sprites/sBattleDefense/sBattleDefense.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b0903745-82e9-4a0d-a725-2adf0e2e4b8d","path":"sprites/sBattleDefense/sBattleDefense.yy",},"LayerId":{"name":"e3018024-c461-4fd4-997e-38088d01895e","path":"sprites/sBattleDefense/sBattleDefense.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBattleDefense","path":"sprites/sBattleDefense/sBattleDefense.yy",},"resourceVersion":"1.0","name":"b0903745-82e9-4a0d-a725-2adf0e2e4b8d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTempAttack","path":"sprites/sTempAttack/sTempAttack.yy",},
+    "spriteId": {"name":"sBattleDefense","path":"sprites/sBattleDefense/sBattleDefense.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2a50029c-bda9-4d2b-a0d1-c521932f09f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a3ac1ccb-d6a4-4c08-b041-8cfca513dd6f","path":"sprites/sTempAttack/sTempAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c370b8fd-0c93-4111-8b8f-0872599f6d50","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0903745-82e9-4a0d-a725-2adf0e2e4b8d","path":"sprites/sBattleDefense/sBattleDefense.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTempAttack","path":"sprites/sTempAttack/sTempAttack.yy",},
+    "parent": {"name":"sBattleDefense","path":"sprites/sBattleDefense/sBattleDefense.yy",},
     "resourceVersion": "1.3",
-    "name": "sTempAttack",
+    "name": "sBattleDefense",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"60a070f2-a0a4-4808-b65c-9f3299e66a68","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e3018024-c461-4fd4-997e-38088d01895e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Items",
     "path": "folders/Sprites/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sTempAttack",
+  "name": "sBattleDefense",
   "tags": [],
   "resourceType": "GMSprite",
 }
