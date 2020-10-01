@@ -58,6 +58,10 @@ if (instance_exists(_itemInst)) {
 	var _added = inventory_add(inventory, _itemInst.itemID);
 	
 	if (_added) {
+		// Show dialogue box
+		show_item_dialog(_itemInst.itemID);
+		
+		// Destroy item
 		instance_destroy(_itemInst);
 	}
 }
