@@ -13,6 +13,10 @@ function BattlePlayer (_instance) constructor {
 			if (isSelected && is_struct(action)) return action;
 		}
 		
+		with (oBattleItemButton) {
+			canSelect = true;
+		}
+		
 		return -1;
 	}
 	

@@ -42,7 +42,15 @@ if (isHovered) {
 				var _used = _effectMethod(oPlayer);
 			
 				// Use up item
-				if (_used) inventory_deplete_slot(inventory, _slotNum, 1);
+				if (_used) {
+					inventory_deplete_slot(inventory, _slotNum, 1);
+					
+					// If in battle, destroy
+					if (forBattleUse) {
+						oBattleManager.itemMenuOpen = false;
+						instance_destroy();
+					}
+				}
 			}
 		}
 	}

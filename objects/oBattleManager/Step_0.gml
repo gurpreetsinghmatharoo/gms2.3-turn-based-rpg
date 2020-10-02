@@ -38,6 +38,40 @@ if (choosing) {
 		if (is_struct(_action)) {
 			selectedAction = _action;
 		}
+		// Using an item (player only)
+		else if (activeTurn == 0) {
+			// Item menu not open
+			if (!itemMenuOpen) {
+				// Create pause sequence
+				if (instance_exists(oBattleItemButton) && oBattleItemButton.isSelected) {
+					// Deactivate all existing GUI boxes
+					instance_deactivate_object(oGUIBoxParent);
+					
+					// Create menu
+					itemMenuSeqElm = layer_sequence_create(global.seqLayer2, 0, 0, seqPause);
+					itemMenuOpen = true;
+				}
+				// Destroy pause sequence
+				else if (layer_sequence_exists(global.seqLayer2, itemMenuSeqElm)) {
+					layer_sequence_destroy(itemMenuSeqElm);
+					
+					// Activate all deactivated GUI boxes
+					instance_activate_object(oGUIBoxParent);
+					
+					// Skip player's turn
+					activeTurn ++;
+				}
+			}
+			// Item menu is open
+			else {
+				// Close
+				if (keyboard_check_pressed(vk_escape)) {
+					itemMenuOpen = false;
+					layer_sequence_destroy(itemMenuSeqElm);
+					instance_activate_object(oGUIBoxParent);
+				}
+			}
+		}
 	}
 	// Select opponent
 	else {

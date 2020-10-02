@@ -23,6 +23,10 @@ selectedOpponent = -1;
 choosing = true;
 over = false;
 
+// Item menu
+itemMenuOpen = false;
+itemMenuSeqElm = -1;
+
 // XP
 xpFinal = 0;
 levelUp = false;

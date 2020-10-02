@@ -1,6 +1,6 @@
 /// @description 
 // Pause
-if (keyboard_check_pressed(vk_escape) && !global.textboxManager.textboxEnabled) {
+if (keyboard_check_pressed(vk_escape) && !global.textboxManager.textboxEnabled && !instance_exists(oBattleManager)) {
 	global.paused = !global.paused;
 	
 	// Paused

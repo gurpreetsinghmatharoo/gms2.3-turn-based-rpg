@@ -7,7 +7,7 @@ event_inherited();
 headerText = "INVENTORY";
 
 // Properties
-forBattleUse = false;
+forBattleUse = instance_exists(oBattleManager);
 
 // Inventory data
 inventory = oPlayer.inventory;
