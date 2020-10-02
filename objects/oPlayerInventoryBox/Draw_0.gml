@@ -28,7 +28,7 @@ for (var i = 0; i < INVENTORY_MAX_SIZE; i ++) {
 		var _drawAlpha = 1;
 		
 		// Grey out incompatible items
-		var _isCompatible = (_itemData.forBattleUse == self.forBattleUse);
+		var _isCompatible = (self.forBattleUse || !_itemData.forBattleUse);
 		
 		if (!_isCompatible) _drawAlpha = 0.3;
 		

@@ -25,15 +25,15 @@ if (isHovered) {
 	
 	if (_slotNum < INVENTORY_MAX_SIZE) {
 		hoverSlotNum = _slotNum;
+		var _slot = inventory[_slotNum];
 		
 		// Click
-		if (isSelected) {
+		if (isSelected && is_struct(_slot)) {
 			// Get item data
-			var _slot = inventory[_slotNum];
 			var _itemID = _slot.itemID;
 			var _itemData = global.items[_itemID];
 			
-			var _isCompatible = (_itemData.forBattleUse == self.forBattleUse);
+			var _isCompatible = (self.forBattleUse || !_itemData.forBattleUse);
 			
 			// Call effect method
 			var _effectMethod = _itemData.Effect;
