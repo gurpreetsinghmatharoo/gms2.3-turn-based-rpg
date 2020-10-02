@@ -1,13 +1,5 @@
 /// @description 
-// Heading
-var _headingHeight = 45;
-
-draw_set_halign(fa_center);
-
-draw_set_font(ftStats);
-draw_text(x + sprite_width / 2, y, "PLAYER");
-
-draw_set_halign(fa_left);
+event_inherited();
 
 // Stat strings
 var _strLeft = "";
@@ -33,7 +25,7 @@ if (instance_exists(oPlayer)) {
 
 // Draw left string
 var _x = x;
-var _y = y + _headingHeight;
+var _y = y + headerHeight;
 draw_text(_x, _y, _strLeft);
 
 // Draw right string
