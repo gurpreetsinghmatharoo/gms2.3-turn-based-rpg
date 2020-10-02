@@ -12,9 +12,14 @@ function HealingItem (_name, _icon, _healPower) : Item (_name, _icon) constructo
 	healPower = _healPower;
 	
 	Effect = function (player) {
+		// Is the player healable?
 		if (player.hp < player.maxHP) {
 			player.hp += healPower;
+			
+			return true;
 		}
+		
+		return false;
 	}
 }
 
@@ -23,7 +28,7 @@ function AttackIncrease (_name, _icon, _increase, _forBattle) : Item (_name, _ic
 	forBattleUse = _forBattle;
 	
 	Effect = function (player) {
-		
+		return true;
 	}
 }
 
@@ -32,6 +37,6 @@ function DefenseIncrease (_name, _icon, _increase, _forBattle) : Item (_name, _i
 	forBattleUse = _forBattle;
 	
 	Effect = function (player) {
-		
+		return true;
 	}
 }
