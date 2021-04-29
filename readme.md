@@ -1,6 +1,6 @@
 # A Turn-Based RPG Project being developed in GameMaker Studio 2.3
 
-### Version required: GMS 2.3.1
+### Version required: GMS 2.3.1+
 
 Project Documentation: https://docs.google.com/document/d/138GPv82bUDVe6s4yHP3zdsJ-E1cF4k4blnnKMkNuM9Y/edit?usp=sharing
 
